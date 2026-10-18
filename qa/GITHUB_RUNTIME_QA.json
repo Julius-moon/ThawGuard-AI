@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "count": 9,
+  "checks": [
+    "Downloaded Windows PowerShell service starts without developer runtime",
+    "Downloaded service serves exact frozen HTML",
+    "Downloaded service does not expose source or settings",
+    "Public downloaded package renders actual images",
+    "Downloaded runtime shows no break before detection",
+    "Downloaded runtime adds true first-detection observation",
+    "Downloaded runtime exports the correct case",
+    "Export from downloaded runtime opens offline with images",
+    "Downloaded runtime uses no external network and has no script errors"
+  ],
+  "html_sha256": "3642f420b3b62fcb3a0f126170472e900e1c2db847abf98c1921d58ac7fcc288",
+  "errors": [],
+  "external": [],
+  "runtime": "PowerShell script extracted from public GitHub Release ZIP",
+  "browser_version": "155.0.4283.45",
+  "physical_devices_tested": 1
+}

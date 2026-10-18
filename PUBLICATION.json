@@ -1,10 +1,49 @@
 {
   "repository": "https://github.com/shixuemin06-netizen/ThawGuard-AI",
-  "visibility": "public",
-  "repository_created": true,
-  "release_tag": "v7-final",
-  "stage": "repository prepared; release download verification recorded separately after publishing",
+  "private": false,
+  "default_branch": "main",
+  "commit": "634c55fb3e80b05ba7eace5a9ef754d31f306f8e",
+  "release": "https://github.com/shixuemin06-netizen/ThawGuard-AI/releases/tag/v7-final",
+  "draft": false,
+  "assets": [
+    {
+      "name": "index.html",
+      "bytes": 13181101,
+      "state": "uploaded",
+      "digest": "sha256:3642f420b3b62fcb3a0f126170472e900e1c2db847abf98c1921d58ac7fcc288",
+      "url": "https://github.com/shixuemin06-netizen/ThawGuard-AI/releases/download/v7-final/index.html"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 273,
+      "state": "uploaded",
+      "digest": "sha256:dda71ea0e6f31da436b5f645f2bb6a812785be34b6647ee8e867ff7fe8395ef4",
+      "url": "https://github.com/shixuemin06-netizen/ThawGuard-AI/releases/download/v7-final/SHA256SUMS.txt"
+    },
+    {
+      "name": "ThawGuard_v7_final_release.zip",
+      "bytes": 5300670,
+      "state": "uploaded",
+      "digest": "sha256:b7a5baa1d8979ada1300cbe38475305fed627af5fe09660d377f412b40c3ae1f",
+      "url": "https://github.com/shixuemin06-netizen/ThawGuard-AI/releases/download/v7-final/ThawGuard_v7_final_release.zip"
+    },
+    {
+      "name": "ThawGuard_v7_final_source.zip",
+      "bytes": 94177064,
+      "state": "uploaded",
+      "digest": "sha256:8a4f3363e13f9ec7fb7ef6e1922f472a7314ea2b44b235f8fce6b3f19add60f1",
+      "url": "https://github.com/shixuemin06-netizen/ThawGuard-AI/releases/download/v7-final/ThawGuard_v7_final_source.zip"
+    }
+  ],
+  "status": "published_and_public_download_verified",
+  "owner": "shixuemin06-netizen",
+  "display_name": "Julius-moon",
+  "release_source_commit": "634c55fb3e80b05ba7eace5a9ef754d31f306f8e",
   "html_sha256": "3642f420b3b62fcb3a0f126170472e900e1c2db847abf98c1921d58ac7fcc288",
+  "public_download_verified": true,
+  "offline_runtime": "Standalone HTML; optional Windows built-in PowerShell local server",
+  "downloaded_browser_checks": 78,
+  "downloaded_runtime_checks": 9,
   "second_physical_device_tested": false,
   "competition_submission_performed": false
 }

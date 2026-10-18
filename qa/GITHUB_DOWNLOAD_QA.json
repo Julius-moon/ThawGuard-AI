@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "repository": "https://github.com/shixuemin06-netizen/ThawGuard-AI",
+  "release": "https://github.com/shixuemin06-netizen/ThawGuard-AI/releases/tag/v7-final",
+  "download_url": "https://github.com/shixuemin06-netizen/ThawGuard-AI/releases/download/v7-final/ThawGuard_v7_final_release.zip",
+  "authentication_supplied": false,
+  "downloaded_zip_sha256": "b7a5baa1d8979ada1300cbe38475305fed627af5fe09660d377f412b40c3ae1f",
+  "html_sha256": "3642f420b3b62fcb3a0f126170472e900e1c2db847abf98c1921d58ac7fcc288",
+  "manifest_files_checked": 37,
+  "source_asset_server_digest_verified": true,
+  "assets": [
+    {
+      "name": "index.html",
+      "bytes": 13181101,
+      "digest": "sha256:3642f420b3b62fcb3a0f126170472e900e1c2db847abf98c1921d58ac7fcc288"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 273,
+      "digest": "sha256:dda71ea0e6f31da436b5f645f2bb6a812785be34b6647ee8e867ff7fe8395ef4"
+    },
+    {
+      "name": "ThawGuard_v7_final_release.zip",
+      "bytes": 5300670,
+      "digest": "sha256:b7a5baa1d8979ada1300cbe38475305fed627af5fe09660d377f412b40c3ae1f"
+    },
+    {
+      "name": "ThawGuard_v7_final_source.zip",
+      "bytes": 94177064,
+      "digest": "sha256:8a4f3363e13f9ec7fb7ef6e1922f472a7314ea2b44b235f8fce6b3f19add60f1"
+    }
+  ],
+  "second_physical_device_tested": false,
+  "checked_source_commit": "634c55fb3e80b05ba7eace5a9ef754d31f306f8e",
+  "downloaded_file_browser_checks": 78,
+  "downloaded_powershell_runtime_checks": 9,
+  "fresh_clone_manifest_checks": 239,
+  "fresh_clone_science_checks": 117,
+  "fresh_clone_rebuild_byte_identical": true,
+  "dependency_installation": "Existing verifier Node/Python dependencies reused; end-user demo itself requires no developer dependencies.",
+  "notes": "Same Windows physical device. No second-device or human-comprehension validation claimed. Credentials were not supplied for public asset download."
+}
