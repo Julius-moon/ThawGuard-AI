@@ -1,0 +1,896 @@
+{
+  "schema": "thawguard-spatial-corroboration-v6",
+  "case_key": "rts-1938",
+  "coordinates": [
+    92.72564269377199,
+    35.07607472715217
+  ],
+  "reference_source": "https://zenodo.org/records/10928346",
+  "reference_year": 2022,
+  "metric_crs": "EPSG:32646",
+  "sources": [
+    {
+      "record": 8103939,
+      "url": "https://zenodo.org/records/8103939",
+      "license": "CC-BY-4.0",
+      "md5": "549aa67a446fa9efc3a47840aac3e413",
+      "note": "Yang et al. inventory explicitly cites earlier Luo and Xia inventories. This is cross-source spatial corroboration, not fully independent ground truth."
+    },
+    {
+      "record": 21693485,
+      "url": "https://zenodo.org/records/21693485",
+      "license": "CC-BY-4.0",
+      "md5": "f6917ed741efcfdf01c3b60795fce2a1",
+      "note": "Xia et al. extended inventory. IDs use uid_sid, not original ID 1938. Gap-filled entries carry an earlier polygon and are not a fresh observation."
+    }
+  ],
+  "matches": [
+    {
+      "source_record": 8103939,
+      "layer": "1_Before_2008RTSs.shp",
+      "year": null,
+      "source_properties": {
+        "ID": 271,
+        "TYPE": "N",
+        "area_ha": 0.155134766334,
+        "perime_km": 0.158387714883
+      },
+      "area_geometry_ha": 0.155135,
+      "iou_with_case_2022": 0.008497,
+      "case_2022_covered_fraction": 0.008497,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 192.422,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 8103939,
+      "layer": "2_2008-2010RTSs.shp",
+      "year": null,
+      "source_properties": {
+        "ID": 271,
+        "TYPE": "Y",
+        "area_ha": 0.155134766334,
+        "perime_km": 0.158387714883
+      },
+      "area_geometry_ha": 0.155135,
+      "iou_with_case_2022": 0.008497,
+      "case_2022_covered_fraction": 0.008497,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 192.422,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 8103939,
+      "layer": "3_2010-2012RTSs.shp",
+      "year": null,
+      "source_properties": {
+        "ID": 273,
+        "TYPE": "Y",
+        "area_ha": 1.47201064206,
+        "perime_km": 0.652262912424
+      },
+      "area_geometry_ha": 1.472011,
+      "iou_with_case_2022": 0.079791,
+      "case_2022_covered_fraction": 0.079853,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 78.636,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 8103939,
+      "layer": "4_2012-2015RTSs.shp",
+      "year": null,
+      "source_properties": {
+        "ID": 273,
+        "TYPE": "Y",
+        "area_ha": 1.94778037074,
+        "perime_km": 0.75075133162
+      },
+      "area_geometry_ha": 1.94778,
+      "iou_with_case_2022": 0.105829,
+      "case_2022_covered_fraction": 0.105911,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 39.706,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 8103939,
+      "layer": "5_2016RTSs.shp",
+      "year": null,
+      "source_properties": {
+        "ID": 273,
+        "TYPE": "N",
+        "area_ha": 5.07400995834,
+        "perime_km": 1.22286817554
+      },
+      "area_geometry_ha": 5.07401,
+      "iou_with_case_2022": 0.273449,
+      "case_2022_covered_fraction": 0.274406,
+      "contains_sampling_point": true,
+      "distance_to_sampling_point_m": 0.0,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 8103939,
+      "layer": "6_2017RTSs.shp",
+      "year": null,
+      "source_properties": {
+        "ID": 273,
+        "TYPE": "Y",
+        "area_ha": 5.07400995834,
+        "perime_km": 1.22286817554
+      },
+      "area_geometry_ha": 5.07401,
+      "iou_with_case_2022": 0.273449,
+      "case_2022_covered_fraction": 0.274406,
+      "contains_sampling_point": true,
+      "distance_to_sampling_point_m": 0.0,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 8103939,
+      "layer": "7_2018RTSs.shp",
+      "year": null,
+      "source_properties": {
+        "ID": 273,
+        "TYPE": "Y",
+        "area_ha": 6.04765531708,
+        "perime_km": 1.30151296104
+      },
+      "area_geometry_ha": 6.047655,
+      "iou_with_case_2022": 0.32659,
+      "case_2022_covered_fraction": 0.327733,
+      "contains_sampling_point": true,
+      "distance_to_sampling_point_m": 0.0,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 8103939,
+      "layer": "8_2018-2020RTSs.shp",
+      "year": null,
+      "source_properties": {
+        "ID": 273,
+        "TYPE": "Y",
+        "area_ha": 6.17946004751,
+        "perime_km": 1.32673875652
+      },
+      "area_geometry_ha": 6.17946,
+      "iou_with_case_2022": 0.333784,
+      "case_2022_covered_fraction": 0.334952,
+      "contains_sampling_point": true,
+      "distance_to_sampling_point_m": 0.0,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 8103939,
+      "layer": "9_2021RTS.shp",
+      "year": null,
+      "source_properties": {
+        "ID": 273,
+        "area_ha": 6.4443591499,
+        "perime_km": 1.32607372146
+      },
+      "area_geometry_ha": 6.444359,
+      "iou_with_case_2022": 0.340861,
+      "case_2022_covered_fraction": 0.343937,
+      "contains_sampling_point": true,
+      "distance_to_sampling_point_m": 0.0,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1964-v2.shp",
+      "year": 1964,
+      "source_properties": {
+        "area": 20733,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 2.07171,
+      "iou_with_case_2022": 0.099229,
+      "case_2022_covered_fraction": 0.100514,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 114.613,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1968-v2.shp",
+      "year": 1968,
+      "source_properties": {
+        "area": 24678,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 2.465901,
+      "iou_with_case_2022": 0.097276,
+      "case_2022_covered_fraction": 0.100626,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 125.78,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1970-v2.shp",
+      "year": 1970,
+      "source_properties": {
+        "area": 24678,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 2.465901,
+      "iou_with_case_2022": 0.097276,
+      "case_2022_covered_fraction": 0.100626,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 125.78,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1972-v2.shp",
+      "year": 1972,
+      "source_properties": {
+        "area": 25443,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 2.542306,
+      "iou_with_case_2022": 0.107052,
+      "case_2022_covered_fraction": 0.110165,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 95.833,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1977-v2.shp",
+      "year": 1977,
+      "source_properties": {
+        "area": 19463,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.944779,
+      "iou_with_case_2022": 0.082765,
+      "case_2022_covered_fraction": 0.08458,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 114.293,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1984-v2.shp",
+      "year": 1984,
+      "source_properties": {
+        "area": 19375,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.936029,
+      "iou_with_case_2022": 0.077496,
+      "case_2022_covered_fraction": 0.079548,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 114.077,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1986-v2.shp",
+      "year": 1986,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1988-v2.shp",
+      "year": 1988,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1989-v2.shp",
+      "year": 1989,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1990-v2.shp",
+      "year": 1990,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1991-v2.shp",
+      "year": 1991,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1992-v2.shp",
+      "year": 1992,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1993-v2.shp",
+      "year": 1993,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1994-v2.shp",
+      "year": 1994,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1996-v2.shp",
+      "year": 1996,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1997-v2.shp",
+      "year": 1997,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-1998-v2.shp",
+      "year": 1998,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2000-v2.shp",
+      "year": 2000,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2001-v2.shp",
+      "year": 2001,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2002-v2.shp",
+      "year": 2002,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2003-v2.shp",
+      "year": 2003,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2004-v2.shp",
+      "year": 2004,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2005-v2.shp",
+      "year": 2005,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "Y"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2007-v2.shp",
+      "year": 2007,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2008-v2.shp",
+      "year": 2008,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2010-v2.shp",
+      "year": 2010,
+      "source_properties": {
+        "area": 17658.0,
+        "uid": 432,
+        "sid": 2,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2011-v2.shp",
+      "year": 2011,
+      "source_properties": {
+        "area": 17658.0,
+        "sid": 2,
+        "uid": 432,
+        "id": "432_2",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.764391,
+      "iou_with_case_2022": 0.064375,
+      "case_2022_covered_fraction": 0.066327,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 138.48,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2012-v2.shp",
+      "year": 2012,
+      "source_properties": {
+        "area": 17696.0,
+        "sid": 4,
+        "uid": 432,
+        "id": "432_4",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.768213,
+      "iou_with_case_2022": 0.072407,
+      "case_2022_covered_fraction": 0.074057,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 83.341,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2013-v2.shp",
+      "year": 2013,
+      "source_properties": {
+        "area": 19951.0,
+        "sid": 4,
+        "uid": 432,
+        "id": "432_4",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 1.99355,
+      "iou_with_case_2022": 0.084474,
+      "case_2022_covered_fraction": 0.086399,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 69.002,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2015-v2.shp",
+      "year": 2015,
+      "source_properties": {
+        "area": 39674.0,
+        "sid": 4,
+        "uid": 432,
+        "id": "432_4",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 3.964318,
+      "iou_with_case_2022": 0.134592,
+      "case_2022_covered_fraction": 0.144383,
+      "contains_sampling_point": false,
+      "distance_to_sampling_point_m": 49.754,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2016-v2.shp",
+      "year": 2016,
+      "source_properties": {
+        "area": 266151.0,
+        "sid": 4,
+        "uid": 432,
+        "id": "432_4",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 26.594187,
+      "iou_with_case_2022": 0.354839,
+      "case_2022_covered_fraction": 0.643389,
+      "contains_sampling_point": true,
+      "distance_to_sampling_point_m": 0.0,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646",
+      "iou_with_same_year_case": 0.103266
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2017-v2.shp",
+      "year": 2017,
+      "source_properties": {
+        "area": 293498.0,
+        "sid": 4,
+        "uid": 432,
+        "id": "432_4",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 29.3268,
+      "iou_with_case_2022": 0.387592,
+      "case_2022_covered_fraction": 0.727993,
+      "contains_sampling_point": true,
+      "distance_to_sampling_point_m": 0.0,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646",
+      "iou_with_same_year_case": 0.331667
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2018-v2.shp",
+      "year": 2018,
+      "source_properties": {
+        "area": 314853.0,
+        "sid": 4,
+        "uid": 432,
+        "id": "432_4",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 31.460581,
+      "iou_with_case_2022": 0.449549,
+      "case_2022_covered_fraction": 0.844518,
+      "contains_sampling_point": true,
+      "distance_to_sampling_point_m": 0.0,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646",
+      "iou_with_same_year_case": 0.354626
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2019-v2.shp",
+      "year": 2019,
+      "source_properties": {
+        "area": 319656.0,
+        "sid": 4,
+        "uid": 432,
+        "id": "432_4",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 31.940499,
+      "iou_with_case_2022": 0.463538,
+      "case_2022_covered_fraction": 0.870799,
+      "contains_sampling_point": true,
+      "distance_to_sampling_point_m": 0.0,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646",
+      "iou_with_same_year_case": 0.379945
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2020-v2.shp",
+      "year": 2020,
+      "source_properties": {
+        "area": 327380.0,
+        "sid": 4,
+        "uid": 432,
+        "id": "432_4",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 32.712337,
+      "iou_with_case_2022": 0.485401,
+      "case_2022_covered_fraction": 0.912264,
+      "contains_sampling_point": true,
+      "distance_to_sampling_point_m": 0.0,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646",
+      "iou_with_same_year_case": 0.497025
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2021-v2.shp",
+      "year": 2021,
+      "source_properties": {
+        "area": 332421.0,
+        "sid": 4,
+        "uid": 432,
+        "id": "432_4",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 33.216007,
+      "iou_with_case_2022": 0.498758,
+      "case_2022_covered_fraction": 0.938194,
+      "contains_sampling_point": true,
+      "distance_to_sampling_point_m": 0.0,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646",
+      "iou_with_same_year_case": 0.499984
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2022-v2.shp",
+      "year": 2022,
+      "source_properties": {
+        "area": 333252.0,
+        "uid": 432,
+        "sid": 4,
+        "id": "432_4",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 33.299043,
+      "iou_with_case_2022": 0.498682,
+      "case_2022_covered_fraction": 0.939611,
+      "contains_sampling_point": true,
+      "distance_to_sampling_point_m": 0.0,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646",
+      "iou_with_same_year_case": 0.498682
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2023-v2.shp",
+      "year": 2023,
+      "source_properties": {
+        "area": 355527.0,
+        "sid": 4,
+        "uid": 432,
+        "id": "432_4",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 35.524814,
+      "iou_with_case_2022": 0.507062,
+      "case_2022_covered_fraction": 0.991104,
+      "contains_sampling_point": true,
+      "distance_to_sampling_point_m": 0.0,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    },
+    {
+      "source_record": 21693485,
+      "layer": "RTS-inventory-v2/RTSs-2024-v2.shp",
+      "year": 2024,
+      "source_properties": {
+        "area": 355679.0,
+        "uid": 432,
+        "sid": 4,
+        "id": "432_4",
+        "gap-filled": "N"
+      },
+      "area_geometry_ha": 35.539981,
+      "iou_with_case_2022": 0.506846,
+      "case_2022_covered_fraction": 0.991104,
+      "contains_sampling_point": true,
+      "distance_to_sampling_point_m": 0.0,
+      "match_rule": "maximum polygon intersection-over-union with fixed 2022 ID 1938 geometry in EPSG:32646"
+    }
+  ],
+  "limitations": [
+    "Matching uses spatial overlap, never equality of IDs across inventories.",
+    "Shared literature and authorship mean independence is not established.",
+    "A polygon match corroborates location and footprint, not exact onset, S-CCD accuracy, or future risk.",
+    "Gap-filled polygons must not be interpreted as newly observed annual boundaries."
+  ]
+}

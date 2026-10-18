@@ -1,0 +1,2 @@
+import {defineConfig} from 'vite';import react from '@vitejs/plugin-react';import {resolve} from 'node:path';
+export default defineConfig({define:{'process.env.NODE_ENV':JSON.stringify('production')},plugins:[react()],build:{outDir:'.build/observatory-v7',emptyOutDir:true,copyPublicDir:false,cssCodeSplit:false,lib:{entry:resolve('src/observatory-v7/entry.tsx'),name:'ThawGuardObservatory',formats:['iife'],fileName:()=> 'app.js'}}});

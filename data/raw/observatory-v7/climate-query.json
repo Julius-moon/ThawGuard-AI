@@ -1,0 +1,15 @@
+{
+  "url": "https://archive-api.open-meteo.com/v1/archive",
+  "params": {
+    "latitude": 35.07607472715217,
+    "longitude": 92.72564269377199,
+    "start_date": "2019-01-01",
+    "end_date": "2021-12-31",
+    "daily": "temperature_2m_mean,precipitation_sum",
+    "models": "era5_land",
+    "timezone": "UTC"
+  },
+  "download_utc": "2026-10-18T05:31:26.676930+00:00",
+  "license": "CC-BY-4.0",
+  "note": "Open-Meteo Historical Weather API requesting ERA5-Land; daily values aggregated locally, not the GEE MONTHLY_AGGR asset."
+}

@@ -1,0 +1,2 @@
+-r requirements-observatory.txt
+pyshp>=2.3,<4

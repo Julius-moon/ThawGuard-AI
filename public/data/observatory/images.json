@@ -1,0 +1,242 @@
+[
+  {
+    "key": "rts-1820",
+    "year": 2013,
+    "date": "2013-08-09",
+    "item": "LC08_L2SP_138036_20130809_02_T1",
+    "bounds": [
+      92.65446622863942,
+      35.08414108990511,
+      92.66806856143917,
+      35.098016983709876
+    ],
+    "path": "/images/observatory/rts-1820-2013-2013-08-09.png",
+    "cloud_cover_scene_pct": 11.01,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_138036_20130809_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  },
+  {
+    "key": "rts-1820",
+    "year": 2016,
+    "date": "2016-08-01",
+    "item": "LC08_L2SP_138036_20160801_02_T1",
+    "bounds": [
+      92.65446622863942,
+      35.08414108990511,
+      92.66806856143917,
+      35.098016983709876
+    ],
+    "path": "/images/observatory/rts-1820-2016-2016-08-01.png",
+    "cloud_cover_scene_pct": 18.86,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_138036_20160801_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  },
+  {
+    "key": "rts-1820",
+    "year": 2017,
+    "date": "2017-07-19",
+    "item": "LC08_L2SP_138036_20170719_02_T1",
+    "bounds": [
+      92.65446622863942,
+      35.08414108990511,
+      92.66806856143917,
+      35.098016983709876
+    ],
+    "path": "/images/observatory/rts-1820-2017-2017-07-19.png",
+    "cloud_cover_scene_pct": 4.84,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_138036_20170719_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  },
+  {
+    "key": "rts-1820",
+    "year": 2022,
+    "date": "2022-08-10",
+    "item": "LC09_L2SP_138036_20220810_02_T1",
+    "bounds": [
+      92.65446622863942,
+      35.08414108990511,
+      92.66806856143917,
+      35.098016983709876
+    ],
+    "path": "/images/observatory/rts-1820-2022-2022-08-10.png",
+    "cloud_cover_scene_pct": 5.59,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_138036_20220810_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  },
+  {
+    "key": "rts-1820",
+    "year": 2025,
+    "date": "2025-07-17",
+    "item": "LC09_L2SP_138036_20250717_02_T1",
+    "bounds": [
+      92.65446622863942,
+      35.08414108990511,
+      92.66806856143917,
+      35.098016983709876
+    ],
+    "path": "/images/observatory/rts-1820-2025-2025-07-17.png",
+    "cloud_cover_scene_pct": 14.35,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_138036_20250717_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2013,
+    "date": "2013-08-09",
+    "item": "LC08_L2SP_138036_20130809_02_T1",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory/rts-1938-2013-2013-08-09.png",
+    "cloud_cover_scene_pct": 11.01,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_138036_20130809_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2016,
+    "date": "2016-08-01",
+    "item": "LC08_L2SP_138036_20160801_02_T1",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory/rts-1938-2016-2016-08-01.png",
+    "cloud_cover_scene_pct": 18.86,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_138036_20160801_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2017,
+    "date": "2017-07-19",
+    "item": "LC08_L2SP_138036_20170719_02_T1",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory/rts-1938-2017-2017-07-19.png",
+    "cloud_cover_scene_pct": 4.84,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_138036_20170719_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2022,
+    "date": "2022-08-10",
+    "item": "LC09_L2SP_138036_20220810_02_T1",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory/rts-1938-2022-2022-08-10.png",
+    "cloud_cover_scene_pct": 5.59,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_138036_20220810_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2025,
+    "date": "2025-07-17",
+    "item": "LC09_L2SP_138036_20250717_02_T1",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory/rts-1938-2025-2025-07-17.png",
+    "cloud_cover_scene_pct": 14.35,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_138036_20250717_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  },
+  {
+    "key": "background",
+    "year": 2013,
+    "date": "2013-08-09",
+    "item": "LC08_L2SP_138036_20130809_02_T1",
+    "bounds": [
+      92.66799999999999,
+      35.093,
+      92.682,
+      35.10300000000001
+    ],
+    "path": "/images/observatory/background-2013-2013-08-09.png",
+    "cloud_cover_scene_pct": 11.01,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_138036_20130809_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  },
+  {
+    "key": "background",
+    "year": 2016,
+    "date": "2016-08-01",
+    "item": "LC08_L2SP_138036_20160801_02_T1",
+    "bounds": [
+      92.66799999999999,
+      35.093,
+      92.682,
+      35.10300000000001
+    ],
+    "path": "/images/observatory/background-2016-2016-08-01.png",
+    "cloud_cover_scene_pct": 18.86,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_138036_20160801_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  },
+  {
+    "key": "background",
+    "year": 2017,
+    "date": "2017-07-19",
+    "item": "LC08_L2SP_138036_20170719_02_T1",
+    "bounds": [
+      92.66799999999999,
+      35.093,
+      92.682,
+      35.10300000000001
+    ],
+    "path": "/images/observatory/background-2017-2017-07-19.png",
+    "cloud_cover_scene_pct": 4.84,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_138036_20170719_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  },
+  {
+    "key": "background",
+    "year": 2022,
+    "date": "2022-08-10",
+    "item": "LC09_L2SP_138036_20220810_02_T1",
+    "bounds": [
+      92.66799999999999,
+      35.093,
+      92.682,
+      35.10300000000001
+    ],
+    "path": "/images/observatory/background-2022-2022-08-10.png",
+    "cloud_cover_scene_pct": 5.59,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_138036_20220810_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  },
+  {
+    "key": "background",
+    "year": 2025,
+    "date": "2025-07-17",
+    "item": "LC09_L2SP_138036_20250717_02_T1",
+    "bounds": [
+      92.66799999999999,
+      35.093,
+      92.682,
+      35.10300000000001
+    ],
+    "path": "/images/observatory/background-2025-2025-07-17.png",
+    "cloud_cover_scene_pct": 14.35,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_138036_20250717_02_T1",
+    "rendering": "Landsat C2 L2 RGB DN fixed stretch 7273–20000 (~0–0.35 reflectance); 30m native, 640px rendered; scene cloud is not ROI cloud fraction"
+  }
+]

@@ -1,0 +1,1999 @@
+{
+  "schema": "thawguard-transparent-assistance-v7",
+  "label_audit": {
+    "source_id": "yang-8103939",
+    "method_id": "source-label-and-overlap-audit-v1",
+    "observation_date": "2018–2020 inventory; downloaded 2026-10-18",
+    "resolution": "interpreted vector polygons",
+    "rts_positive_records": 459,
+    "activity_codes": {
+      "N": 332,
+      "Y": 124,
+      "T": 3
+    },
+    "verified_negative_records": 0,
+    "independent_event_onset_labels": 0,
+    "original_inventory_2022_ids_in_window": 437,
+    "fixed_pixel_time_series": 3,
+    "overlap_candidates_for_1938": [
+      {
+        "source_id": 273,
+        "TYPE": "Y",
+        "intersection_m2": 61155.709,
+        "iou": 0.333784,
+        "ref_covered_fraction": 0.334952
+      },
+      {
+        "source_id": 271,
+        "TYPE": "N",
+        "intersection_m2": 46448.536,
+        "iou": 0.24929,
+        "ref_covered_fraction": 0.2544
+      },
+      {
+        "source_id": 272,
+        "TYPE": "Y",
+        "intersection_m2": 27195.164,
+        "iou": 0.148528,
+        "ref_covered_fraction": 0.148949
+      },
+      {
+        "source_id": 270,
+        "TYPE": "N",
+        "intersection_m2": 10412.675,
+        "iou": 0.056676,
+        "ref_covered_fraction": 0.057031
+      }
+    ],
+    "classification_training_permitted": false,
+    "reason": "All 459 features are thaw-slump records. N means inactive RTS, not non-RTS. Unlisted background is unlabelled. Shared input inventories and inconsistent object boundaries prevent independent event/onset validation. A binary classifier has no verified negative class; fitting pseudo-negatives would not validate RTS identification.",
+    "limitations": "Counts audit the available local public sources, not all possible labels worldwide. No accuracy/PR-AUC/confusion matrix claimed."
+  },
+  "cases": {
+    "rts-1820": {
+      "source_id": "landsat-c2l2-fixed-pixel",
+      "method_id": "public-sccd-prefix-plus-ndvi-mad-baseline-v1",
+      "observation_date": "1995–2025; each prefix dated separately",
+      "resolution": "30 m pixel",
+      "valid_n": 493,
+      "ndvi_mad_flags": [
+        {
+          "date": "1997-07-28",
+          "ndvi": 0.287275,
+          "past_median": 0.08876200000000001,
+          "past_mad": 0.015169499999999989,
+          "standardized_deviation": 8.8266,
+          "history_last_date": "1997-05-09"
+        },
+        {
+          "date": "1998-08-16",
+          "ndvi": 0.206774,
+          "past_median": 0.088072,
+          "past_mad": 0.017499499999999994,
+          "standardized_deviation": 4.57518,
+          "history_last_date": "1998-04-26"
+        },
+        {
+          "date": "2000-07-20",
+          "ndvi": 0.27889,
+          "past_median": 0.08560200000000001,
+          "past_mad": 0.017577499999999996,
+          "standardized_deviation": 7.41692,
+          "history_last_date": "2000-06-02"
+        },
+        {
+          "date": "2000-08-29",
+          "ndvi": 0.193302,
+          "past_median": 0.08560200000000001,
+          "past_mad": 0.017577499999999996,
+          "standardized_deviation": 4.13271,
+          "history_last_date": "2000-07-20"
+        },
+        {
+          "date": "2000-09-14",
+          "ndvi": 0.219362,
+          "past_median": 0.08954000000000001,
+          "past_mad": 0.017577499999999996,
+          "standardized_deviation": 4.98158,
+          "history_last_date": "2000-08-29"
+        },
+        {
+          "date": "2001-07-07",
+          "ndvi": 0.160208,
+          "past_median": 0.0989205,
+          "past_mad": 0.011791500000000003,
+          "standardized_deviation": 3.50573,
+          "history_last_date": "2001-06-13"
+        },
+        {
+          "date": "2001-07-23",
+          "ndvi": 0.224534,
+          "past_median": 0.0989205,
+          "past_mad": 0.011791500000000003,
+          "standardized_deviation": 7.18527,
+          "history_last_date": "2001-07-07"
+        },
+        {
+          "date": "2001-09-09",
+          "ndvi": 0.216811,
+          "past_median": 0.0989205,
+          "past_mad": 0.011791500000000003,
+          "standardized_deviation": 6.74351,
+          "history_last_date": "2001-07-23"
+        },
+        {
+          "date": "2001-09-17",
+          "ndvi": 0.221871,
+          "past_median": 0.0989205,
+          "past_mad": 0.011791500000000003,
+          "standardized_deviation": 7.03295,
+          "history_last_date": "2001-09-09"
+        },
+        {
+          "date": "2001-09-25",
+          "ndvi": 0.18051,
+          "past_median": 0.0989205,
+          "past_mad": 0.011791500000000003,
+          "standardized_deviation": 4.66704,
+          "history_last_date": "2001-09-17"
+        },
+        {
+          "date": "2002-07-02",
+          "ndvi": 0.21276,
+          "past_median": 0.1039835,
+          "past_mad": 0.0213855,
+          "standardized_deviation": 3.43077,
+          "history_last_date": "2002-06-24"
+        },
+        {
+          "date": "2002-07-26",
+          "ndvi": 0.287002,
+          "past_median": 0.1039835,
+          "past_mad": 0.0213855,
+          "standardized_deviation": 5.77234,
+          "history_last_date": "2002-07-02"
+        },
+        {
+          "date": "2002-08-03",
+          "ndvi": 0.299212,
+          "past_median": 0.1039835,
+          "past_mad": 0.0213855,
+          "standardized_deviation": 6.15743,
+          "history_last_date": "2002-07-26"
+        },
+        {
+          "date": "2002-08-27",
+          "ndvi": 0.22635,
+          "past_median": 0.1039835,
+          "past_mad": 0.0213855,
+          "standardized_deviation": 3.85939,
+          "history_last_date": "2002-08-03"
+        },
+        {
+          "date": "2003-06-27",
+          "ndvi": 0.169732,
+          "past_median": 0.087035,
+          "past_mad": 0.0182895,
+          "standardized_deviation": 3.04975,
+          "history_last_date": "2003-04-16"
+        },
+        {
+          "date": "2003-07-13",
+          "ndvi": 0.199494,
+          "past_median": 0.087035,
+          "past_mad": 0.0182895,
+          "standardized_deviation": 4.14733,
+          "history_last_date": "2003-06-27"
+        },
+        {
+          "date": "2003-08-06",
+          "ndvi": 0.276166,
+          "past_median": 0.087035,
+          "past_mad": 0.0182895,
+          "standardized_deviation": 6.97488,
+          "history_last_date": "2003-07-13"
+        },
+        {
+          "date": "2003-09-15",
+          "ndvi": 0.176996,
+          "past_median": 0.087035,
+          "past_mad": 0.0182895,
+          "standardized_deviation": 3.31763,
+          "history_last_date": "2003-08-06"
+        },
+        {
+          "date": "2003-09-23",
+          "ndvi": 0.181169,
+          "past_median": 0.087035,
+          "past_mad": 0.0182895,
+          "standardized_deviation": 3.47153,
+          "history_last_date": "2003-09-15"
+        },
+        {
+          "date": "2004-08-16",
+          "ndvi": 0.270352,
+          "past_median": 0.08829300000000001,
+          "past_mad": 0.013607000000000001,
+          "standardized_deviation": 9.02455,
+          "history_last_date": "2004-05-20"
+        },
+        {
+          "date": "2005-08-03",
+          "ndvi": 0.301617,
+          "past_median": 0.08237349999999999,
+          "past_mad": 0.012612499999999992,
+          "standardized_deviation": 11.72469,
+          "history_last_date": "2005-03-12"
+        },
+        {
+          "date": "2005-08-27",
+          "ndvi": 0.293534,
+          "past_median": 0.083429,
+          "past_mad": 0.013668000000000007,
+          "standardized_deviation": 10.3683,
+          "history_last_date": "2005-08-03"
+        },
+        {
+          "date": "2005-09-12",
+          "ndvi": 0.21285,
+          "past_median": 0.0841905,
+          "past_mad": 0.0154445,
+          "standardized_deviation": 5.61881,
+          "history_last_date": "2005-08-27"
+        },
+        {
+          "date": "2006-08-06",
+          "ndvi": 0.245486,
+          "past_median": 0.08823,
+          "past_mad": 0.019356000000000005,
+          "standardized_deviation": 5.47984,
+          "history_last_date": "2006-05-02"
+        },
+        {
+          "date": "2006-09-07",
+          "ndvi": 0.251131,
+          "past_median": 0.08823,
+          "past_mad": 0.019356000000000005,
+          "standardized_deviation": 5.67655,
+          "history_last_date": "2006-08-06"
+        },
+        {
+          "date": "2006-09-15",
+          "ndvi": 0.24137,
+          "past_median": 0.08823,
+          "past_mad": 0.019356000000000005,
+          "standardized_deviation": 5.33641,
+          "history_last_date": "2006-09-07"
+        },
+        {
+          "date": "2007-07-24",
+          "ndvi": 0.186486,
+          "past_median": 0.0854615,
+          "past_mad": 0.017705,
+          "standardized_deviation": 3.84864,
+          "history_last_date": "2007-05-05"
+        },
+        {
+          "date": "2007-08-01",
+          "ndvi": 0.256472,
+          "past_median": 0.0854615,
+          "past_mad": 0.017705,
+          "standardized_deviation": 6.51483,
+          "history_last_date": "2007-07-24"
+        },
+        {
+          "date": "2008-06-24",
+          "ndvi": 0.20673,
+          "past_median": 0.088343,
+          "past_mad": 0.0169855,
+          "standardized_deviation": 4.70112,
+          "history_last_date": "2008-06-08"
+        },
+        {
+          "date": "2008-07-18",
+          "ndvi": 0.218789,
+          "past_median": 0.088343,
+          "past_mad": 0.0169855,
+          "standardized_deviation": 5.17998,
+          "history_last_date": "2008-06-24"
+        },
+        {
+          "date": "2008-08-03",
+          "ndvi": 0.272718,
+          "past_median": 0.088343,
+          "past_mad": 0.0169855,
+          "standardized_deviation": 7.32149,
+          "history_last_date": "2008-07-18"
+        },
+        {
+          "date": "2008-08-11",
+          "ndvi": 0.27321,
+          "past_median": 0.092507,
+          "past_mad": 0.02172650000000001,
+          "standardized_deviation": 5.60985,
+          "history_last_date": "2008-08-03"
+        },
+        {
+          "date": "2008-08-19",
+          "ndvi": 0.295273,
+          "past_median": 0.096113,
+          "past_mad": 0.025332500000000008,
+          "standardized_deviation": 5.30274,
+          "history_last_date": "2008-08-11"
+        },
+        {
+          "date": "2010-06-30",
+          "ndvi": 0.288471,
+          "past_median": 0.0937,
+          "past_mad": 0.008637000000000006,
+          "standardized_deviation": 15.21029,
+          "history_last_date": "2010-05-05"
+        },
+        {
+          "date": "2010-07-16",
+          "ndvi": 0.323309,
+          "past_median": 0.095365,
+          "past_mad": 0.010875499999999996,
+          "standardized_deviation": 14.13692,
+          "history_last_date": "2010-06-30"
+        },
+        {
+          "date": "2010-08-01",
+          "ndvi": 0.345506,
+          "past_median": 0.095365,
+          "past_mad": 0.012128,
+          "standardized_deviation": 13.91143,
+          "history_last_date": "2010-07-16"
+        },
+        {
+          "date": "2010-09-02",
+          "ndvi": 0.313765,
+          "past_median": 0.0965105,
+          "past_mad": 0.012128,
+          "standardized_deviation": 12.08247,
+          "history_last_date": "2010-08-01"
+        },
+        {
+          "date": "2010-09-10",
+          "ndvi": 0.285229,
+          "past_median": 0.0965105,
+          "past_mad": 0.012128,
+          "standardized_deviation": 10.49546,
+          "history_last_date": "2010-09-02"
+        },
+        {
+          "date": "2011-06-17",
+          "ndvi": 0.235027,
+          "past_median": 0.098371,
+          "past_mad": 0.023413000000000003,
+          "standardized_deviation": 3.93684,
+          "history_last_date": "2011-05-16"
+        },
+        {
+          "date": "2011-07-03",
+          "ndvi": 0.258929,
+          "past_median": 0.1001185,
+          "past_mad": 0.031038500000000004,
+          "standardized_deviation": 3.45108,
+          "history_last_date": "2011-06-17"
+        },
+        {
+          "date": "2011-08-12",
+          "ndvi": 0.329971,
+          "past_median": 0.10329050000000001,
+          "past_mad": 0.0378505,
+          "standardized_deviation": 4.03942,
+          "history_last_date": "2011-07-03"
+        },
+        {
+          "date": "2013-08-01",
+          "ndvi": 0.359774,
+          "past_median": 0.1139515,
+          "past_mad": 0.0337275,
+          "standardized_deviation": 4.91602,
+          "history_last_date": "2013-06-14"
+        },
+        {
+          "date": "2013-08-09",
+          "ndvi": 0.375682,
+          "past_median": 0.117833,
+          "past_mad": 0.037609,
+          "standardized_deviation": 4.62434,
+          "history_last_date": "2013-08-01"
+        },
+        {
+          "date": "2014-07-11",
+          "ndvi": 0.350504,
+          "past_median": 0.139026,
+          "past_mad": 0.0359765,
+          "standardized_deviation": 3.96481,
+          "history_last_date": "2014-07-03"
+        },
+        {
+          "date": "2014-07-27",
+          "ndvi": 0.413401,
+          "past_median": 0.15469100000000002,
+          "past_mad": 0.054266,
+          "standardized_deviation": 3.2156,
+          "history_last_date": "2014-07-11"
+        },
+        {
+          "date": "2015-05-27",
+          "ndvi": 0.220897,
+          "past_median": 0.12012149999999999,
+          "past_mad": 0.020719500000000002,
+          "standardized_deviation": 3.28059,
+          "history_last_date": "2015-05-11"
+        },
+        {
+          "date": "2015-07-06",
+          "ndvi": 0.301758,
+          "past_median": 0.12012149999999999,
+          "past_mad": 0.02354399999999999,
+          "standardized_deviation": 5.20354,
+          "history_last_date": "2015-05-27"
+        },
+        {
+          "date": "2015-07-22",
+          "ndvi": 0.31406,
+          "past_median": 0.1235685,
+          "past_mad": 0.02735,
+          "standardized_deviation": 4.6978,
+          "history_last_date": "2015-07-06"
+        },
+        {
+          "date": "2015-08-23",
+          "ndvi": 0.292974,
+          "past_median": 0.1255945,
+          "past_mad": 0.029751999999999994,
+          "standardized_deviation": 3.79457,
+          "history_last_date": "2015-07-22"
+        },
+        {
+          "date": "2016-07-16",
+          "ndvi": 0.332802,
+          "past_median": 0.138294,
+          "past_mad": 0.022687000000000006,
+          "standardized_deviation": 5.78278,
+          "history_last_date": "2016-06-22"
+        },
+        {
+          "date": "2016-08-01",
+          "ndvi": 0.392431,
+          "past_median": 0.138294,
+          "past_mad": 0.022687000000000006,
+          "standardized_deviation": 7.55556,
+          "history_last_date": "2016-07-16"
+        },
+        {
+          "date": "2016-08-09",
+          "ndvi": 0.33374,
+          "past_median": 0.138294,
+          "past_mad": 0.022687000000000006,
+          "standardized_deviation": 5.81066,
+          "history_last_date": "2016-08-01"
+        },
+        {
+          "date": "2017-07-19",
+          "ndvi": 0.255671,
+          "past_median": 0.12324199999999999,
+          "past_mad": 0.017167500000000002,
+          "standardized_deviation": 5.20298,
+          "history_last_date": "2017-05-24"
+        },
+        {
+          "date": "2017-08-04",
+          "ndvi": 0.271427,
+          "past_median": 0.1299015,
+          "past_mad": 0.018827999999999984,
+          "standardized_deviation": 5.06998,
+          "history_last_date": "2017-07-19"
+        },
+        {
+          "date": "2017-08-12",
+          "ndvi": 0.247932,
+          "past_median": 0.1299015,
+          "past_mad": 0.018827999999999984,
+          "standardized_deviation": 4.2283,
+          "history_last_date": "2017-08-04"
+        },
+        {
+          "date": "2017-09-05",
+          "ndvi": 0.314709,
+          "past_median": 0.1299015,
+          "past_mad": 0.018827999999999984,
+          "standardized_deviation": 6.62051,
+          "history_last_date": "2017-08-12"
+        },
+        {
+          "date": "2018-08-23",
+          "ndvi": 0.281322,
+          "past_median": 0.1351505,
+          "past_mad": 0.0229235,
+          "standardized_deviation": 4.30088,
+          "history_last_date": "2018-06-04"
+        },
+        {
+          "date": "2018-09-08",
+          "ndvi": 0.269764,
+          "past_median": 0.1351505,
+          "past_mad": 0.0229235,
+          "standardized_deviation": 3.96081,
+          "history_last_date": "2018-08-23"
+        },
+        {
+          "date": "2019-07-09",
+          "ndvi": 0.279492,
+          "past_median": 0.1363585,
+          "past_mad": 0.022896499999999993,
+          "standardized_deviation": 4.21646,
+          "history_last_date": "2019-06-15"
+        },
+        {
+          "date": "2019-08-02",
+          "ndvi": 0.287192,
+          "past_median": 0.1400055,
+          "past_mad": 0.026543500000000005,
+          "standardized_deviation": 3.74012,
+          "history_last_date": "2019-07-25"
+        },
+        {
+          "date": "2019-08-10",
+          "ndvi": 0.298333,
+          "past_median": 0.143631,
+          "past_mad": 0.0287815,
+          "standardized_deviation": 3.62542,
+          "history_last_date": "2019-08-02"
+        },
+        {
+          "date": "2021-06-28",
+          "ndvi": 0.210285,
+          "past_median": 0.1246265,
+          "past_mad": 0.009351499999999999,
+          "standardized_deviation": 6.17825,
+          "history_last_date": "2021-06-12"
+        },
+        {
+          "date": "2021-07-30",
+          "ndvi": 0.174744,
+          "past_median": 0.1246265,
+          "past_mad": 0.009351499999999999,
+          "standardized_deviation": 3.6148,
+          "history_last_date": "2021-06-28"
+        },
+        {
+          "date": "2021-09-08",
+          "ndvi": 0.170811,
+          "past_median": 0.1246265,
+          "past_mad": 0.009351499999999999,
+          "standardized_deviation": 3.33113,
+          "history_last_date": "2021-07-30"
+        },
+        {
+          "date": "2022-06-23",
+          "ndvi": 0.17323,
+          "past_median": 0.1227555,
+          "past_mad": 0.009718499999999991,
+          "standardized_deviation": 3.50307,
+          "history_last_date": "2022-05-14"
+        },
+        {
+          "date": "2022-08-02",
+          "ndvi": 0.207396,
+          "past_median": 0.1235575,
+          "past_mad": 0.011507499999999997,
+          "standardized_deviation": 4.91404,
+          "history_last_date": "2022-06-23"
+        },
+        {
+          "date": "2024-07-14",
+          "ndvi": 0.190552,
+          "past_median": 0.122975,
+          "past_mad": 0.012768999999999996,
+          "standardized_deviation": 3.56959,
+          "history_last_date": "2024-06-28"
+        }
+      ],
+      "sccd_final_breaks": [],
+      "first_detection_residuals": [],
+      "limitations": "NDVI flags count isolated deviations, whereas S-CCD segments identify sustained multiband structural changes; counts are not directly comparable accuracy measures. No true-negative labels or independent onset truth. Residuals use the segment available at first detection, never shown earlier."
+    },
+    "rts-1938": {
+      "source_id": "landsat-c2l2-fixed-pixel",
+      "method_id": "public-sccd-prefix-plus-ndvi-mad-baseline-v1",
+      "observation_date": "1995–2025; each prefix dated separately",
+      "resolution": "30 m pixel",
+      "valid_n": 487,
+      "ndvi_mad_flags": [
+        {
+          "date": "1996-11-30",
+          "ndvi": 0.026971,
+          "past_median": 0.099529,
+          "past_mad": 0.009041499999999994,
+          "standardized_deviation": 5.41279,
+          "history_last_date": "1996-11-14"
+        },
+        {
+          "date": "1997-07-28",
+          "ndvi": 0.235775,
+          "past_median": 0.08619450000000001,
+          "past_mad": 0.011894000000000002,
+          "standardized_deviation": 8.48248,
+          "history_last_date": "1997-04-23"
+        },
+        {
+          "date": "1997-09-14",
+          "ndvi": 0.221112,
+          "past_median": 0.08619450000000001,
+          "past_mad": 0.01329149999999999,
+          "standardized_deviation": 6.84653,
+          "history_last_date": "1997-07-28"
+        },
+        {
+          "date": "1997-11-17",
+          "ndvi": 0.029085,
+          "past_median": 0.08991550000000001,
+          "past_mad": 0.012669,
+          "standardized_deviation": 3.23858,
+          "history_last_date": "1997-09-30"
+        },
+        {
+          "date": "1998-07-31",
+          "ndvi": 0.250097,
+          "past_median": 0.08180950000000001,
+          "past_mad": 0.01860649999999999,
+          "standardized_deviation": 6.10047,
+          "history_last_date": "1998-03-09"
+        },
+        {
+          "date": "1998-08-16",
+          "ndvi": 0.188082,
+          "past_median": 0.08180950000000001,
+          "past_mad": 0.01860649999999999,
+          "standardized_deviation": 3.85241,
+          "history_last_date": "1998-07-31"
+        },
+        {
+          "date": "1999-09-28",
+          "ndvi": 0.144088,
+          "past_median": 0.0821285,
+          "past_mad": 0.012366000000000002,
+          "standardized_deviation": 3.37952,
+          "history_last_date": "1999-04-29"
+        },
+        {
+          "date": "2000-06-02",
+          "ndvi": 0.015329,
+          "past_median": 0.082587,
+          "past_mad": 0.01437200000000001,
+          "standardized_deviation": 3.15648,
+          "history_last_date": "2000-05-09"
+        },
+        {
+          "date": "2000-08-29",
+          "ndvi": 0.188712,
+          "past_median": 0.082397,
+          "past_mad": 0.021134000000000003,
+          "standardized_deviation": 3.39304,
+          "history_last_date": "2000-06-02"
+        },
+        {
+          "date": "2000-09-14",
+          "ndvi": 0.185343,
+          "past_median": 0.082587,
+          "past_mad": 0.021134000000000003,
+          "standardized_deviation": 3.27945,
+          "history_last_date": "2000-08-29"
+        },
+        {
+          "date": "2001-07-31",
+          "ndvi": 0.198666,
+          "past_median": 0.0853825,
+          "past_mad": 0.022248500000000004,
+          "standardized_deviation": 3.43433,
+          "history_last_date": "2001-06-13"
+        },
+        {
+          "date": "2001-09-09",
+          "ndvi": 0.207732,
+          "past_median": 0.09064,
+          "past_mad": 0.024107000000000003,
+          "standardized_deviation": 3.27612,
+          "history_last_date": "2001-08-24"
+        },
+        {
+          "date": "2002-06-24",
+          "ndvi": 0.159113,
+          "past_median": 0.079932,
+          "past_mad": 0.009787500000000005,
+          "standardized_deviation": 5.45664,
+          "history_last_date": "2002-05-15"
+        },
+        {
+          "date": "2002-07-26",
+          "ndvi": 0.212386,
+          "past_median": 0.079932,
+          "past_mad": 0.009787500000000005,
+          "standardized_deviation": 9.12787,
+          "history_last_date": "2002-06-24"
+        },
+        {
+          "date": "2002-08-03",
+          "ndvi": 0.262306,
+          "past_median": 0.079932,
+          "past_mad": 0.009787500000000005,
+          "standardized_deviation": 12.56803,
+          "history_last_date": "2002-07-26"
+        },
+        {
+          "date": "2002-08-27",
+          "ndvi": 0.217283,
+          "past_median": 0.079932,
+          "past_mad": 0.009787500000000005,
+          "standardized_deviation": 9.46534,
+          "history_last_date": "2002-08-03"
+        },
+        {
+          "date": "2002-10-06",
+          "ndvi": 0.160405,
+          "past_median": 0.079932,
+          "past_mad": 0.009787500000000005,
+          "standardized_deviation": 5.54568,
+          "history_last_date": "2002-08-27"
+        },
+        {
+          "date": "2003-06-27",
+          "ndvi": 0.151313,
+          "past_median": 0.07399649999999999,
+          "past_mad": 0.013094499999999999,
+          "standardized_deviation": 3.98253,
+          "history_last_date": "2003-04-08"
+        },
+        {
+          "date": "2003-07-21",
+          "ndvi": 0.211022,
+          "past_median": 0.07399649999999999,
+          "past_mad": 0.013094499999999999,
+          "standardized_deviation": 7.05811,
+          "history_last_date": "2003-06-27"
+        },
+        {
+          "date": "2003-07-29",
+          "ndvi": 0.23786,
+          "past_median": 0.07399649999999999,
+          "past_mad": 0.013094499999999999,
+          "standardized_deviation": 8.44052,
+          "history_last_date": "2003-07-21"
+        },
+        {
+          "date": "2003-08-06",
+          "ndvi": 0.249386,
+          "past_median": 0.07399649999999999,
+          "past_mad": 0.013094499999999999,
+          "standardized_deviation": 9.03422,
+          "history_last_date": "2003-07-29"
+        },
+        {
+          "date": "2003-09-23",
+          "ndvi": 0.180328,
+          "past_median": 0.07399649999999999,
+          "past_mad": 0.013094499999999999,
+          "standardized_deviation": 5.47708,
+          "history_last_date": "2003-08-06"
+        },
+        {
+          "date": "2004-07-15",
+          "ndvi": 0.194421,
+          "past_median": 0.083762,
+          "past_mad": 0.014457000000000005,
+          "standardized_deviation": 5.16279,
+          "history_last_date": "2004-05-04"
+        },
+        {
+          "date": "2004-08-16",
+          "ndvi": 0.201493,
+          "past_median": 0.08752850000000001,
+          "past_mad": 0.01822350000000001,
+          "standardized_deviation": 4.21807,
+          "history_last_date": "2004-07-15"
+        },
+        {
+          "date": "2005-08-03",
+          "ndvi": 0.270477,
+          "past_median": 0.0742655,
+          "past_mad": 0.011431499999999997,
+          "standardized_deviation": 11.57703,
+          "history_last_date": "2005-04-21"
+        },
+        {
+          "date": "2005-08-27",
+          "ndvi": 0.284479,
+          "past_median": 0.0742655,
+          "past_mad": 0.011431499999999997,
+          "standardized_deviation": 12.40319,
+          "history_last_date": "2005-08-03"
+        },
+        {
+          "date": "2005-09-12",
+          "ndvi": 0.262704,
+          "past_median": 0.0759685,
+          "past_mad": 0.009728500000000001,
+          "standardized_deviation": 12.94664,
+          "history_last_date": "2005-08-27"
+        },
+        {
+          "date": "2005-09-28",
+          "ndvi": 0.233521,
+          "past_median": 0.0759685,
+          "past_mad": 0.013524999999999995,
+          "standardized_deviation": 7.85713,
+          "history_last_date": "2005-09-12"
+        },
+        {
+          "date": "2005-10-06",
+          "ndvi": 0.174876,
+          "past_median": 0.0759685,
+          "past_mad": 0.016885499999999994,
+          "standardized_deviation": 3.95086,
+          "history_last_date": "2005-09-28"
+        },
+        {
+          "date": "2006-08-06",
+          "ndvi": 0.239735,
+          "past_median": 0.08135200000000001,
+          "past_mad": 0.014096999999999998,
+          "standardized_deviation": 7.57806,
+          "history_last_date": "2006-03-07"
+        },
+        {
+          "date": "2006-08-14",
+          "ndvi": 0.260871,
+          "past_median": 0.0832725,
+          "past_mad": 0.01901,
+          "standardized_deviation": 6.30134,
+          "history_last_date": "2006-08-06"
+        },
+        {
+          "date": "2007-07-08",
+          "ndvi": 0.215439,
+          "past_median": 0.0926015,
+          "past_mad": 0.017792500000000003,
+          "standardized_deviation": 4.65661,
+          "history_last_date": "2007-06-14"
+        },
+        {
+          "date": "2007-07-24",
+          "ndvi": 0.212413,
+          "past_median": 0.0926015,
+          "past_mad": 0.017792500000000003,
+          "standardized_deviation": 4.5419,
+          "history_last_date": "2007-07-08"
+        },
+        {
+          "date": "2007-08-01",
+          "ndvi": 0.257966,
+          "past_median": 0.0926015,
+          "past_mad": 0.017792500000000003,
+          "standardized_deviation": 6.26876,
+          "history_last_date": "2007-07-24"
+        },
+        {
+          "date": "2007-09-10",
+          "ndvi": 0.246122,
+          "past_median": 0.0926015,
+          "past_mad": 0.017792500000000003,
+          "standardized_deviation": 5.81976,
+          "history_last_date": "2007-08-01"
+        },
+        {
+          "date": "2010-06-30",
+          "ndvi": 0.312793,
+          "past_median": 0.0984505,
+          "past_mad": 0.016764,
+          "standardized_deviation": 8.62396,
+          "history_last_date": "2010-04-27"
+        },
+        {
+          "date": "2010-07-16",
+          "ndvi": 0.283718,
+          "past_median": 0.1034735,
+          "past_mad": 0.019946499999999992,
+          "standardized_deviation": 6.09497,
+          "history_last_date": "2010-06-30"
+        },
+        {
+          "date": "2010-08-01",
+          "ndvi": 0.330016,
+          "past_median": 0.10750499999999999,
+          "past_mad": 0.023977999999999985,
+          "standardized_deviation": 6.25914,
+          "history_last_date": "2010-07-16"
+        },
+        {
+          "date": "2010-09-02",
+          "ndvi": 0.322435,
+          "past_median": 0.1126605,
+          "past_mad": 0.028587999999999995,
+          "standardized_deviation": 4.94931,
+          "history_last_date": "2010-08-01"
+        },
+        {
+          "date": "2010-09-18",
+          "ndvi": 0.267746,
+          "past_median": 0.11678949999999999,
+          "past_mad": 0.033262499999999987,
+          "standardized_deviation": 3.06107,
+          "history_last_date": "2010-09-02"
+        },
+        {
+          "date": "2011-07-03",
+          "ndvi": 0.283927,
+          "past_median": 0.10766049999999999,
+          "past_mad": 0.016571499999999996,
+          "standardized_deviation": 7.17437,
+          "history_last_date": "2011-04-30"
+        },
+        {
+          "date": "2011-08-04",
+          "ndvi": 0.331449,
+          "past_median": 0.1114465,
+          "past_mad": 0.01769099999999999,
+          "standardized_deviation": 8.38786,
+          "history_last_date": "2011-07-03"
+        },
+        {
+          "date": "2013-08-09",
+          "ndvi": 0.342013,
+          "past_median": 0.12712199999999999,
+          "past_mad": 0.03532900000000001,
+          "standardized_deviation": 4.10264,
+          "history_last_date": "2013-06-06"
+        },
+        {
+          "date": "2014-07-11",
+          "ndvi": 0.334463,
+          "past_median": 0.13351200000000002,
+          "past_mad": 0.03227250000000002,
+          "standardized_deviation": 4.19985,
+          "history_last_date": "2014-06-01"
+        },
+        {
+          "date": "2014-07-27",
+          "ndvi": 0.350141,
+          "past_median": 0.1396015,
+          "past_mad": 0.03571049999999999,
+          "standardized_deviation": 3.97662,
+          "history_last_date": "2014-07-11"
+        },
+        {
+          "date": "2014-08-12",
+          "ndvi": 0.435358,
+          "past_median": 0.1396015,
+          "past_mad": 0.03836199999999999,
+          "standardized_deviation": 5.20007,
+          "history_last_date": "2014-07-27"
+        },
+        {
+          "date": "2015-05-27",
+          "ndvi": 0.204018,
+          "past_median": 0.125403,
+          "past_mad": 0.0170185,
+          "standardized_deviation": 3.11573,
+          "history_last_date": "2015-05-11"
+        },
+        {
+          "date": "2015-07-06",
+          "ndvi": 0.271857,
+          "past_median": 0.130714,
+          "past_mad": 0.019355500000000005,
+          "standardized_deviation": 4.91848,
+          "history_last_date": "2015-05-27"
+        },
+        {
+          "date": "2015-07-14",
+          "ndvi": 0.310516,
+          "past_median": 0.13220749999999998,
+          "past_mad": 0.024121999999999977,
+          "standardized_deviation": 4.9858,
+          "history_last_date": "2015-07-06"
+        },
+        {
+          "date": "2016-06-30",
+          "ndvi": 0.270746,
+          "past_median": 0.1304365,
+          "past_mad": 0.015609999999999999,
+          "standardized_deviation": 6.06262,
+          "history_last_date": "2016-06-22"
+        },
+        {
+          "date": "2016-07-16",
+          "ndvi": 0.354081,
+          "past_median": 0.1304365,
+          "past_mad": 0.015609999999999999,
+          "standardized_deviation": 9.66343,
+          "history_last_date": "2016-06-30"
+        },
+        {
+          "date": "2016-08-01",
+          "ndvi": 0.33393,
+          "past_median": 0.1304365,
+          "past_mad": 0.017799999999999983,
+          "standardized_deviation": 7.71093,
+          "history_last_date": "2016-07-16"
+        },
+        {
+          "date": "2016-08-09",
+          "ndvi": 0.275597,
+          "past_median": 0.1304365,
+          "past_mad": 0.02187549999999998,
+          "standardized_deviation": 4.47576,
+          "history_last_date": "2016-08-01"
+        },
+        {
+          "date": "2018-10-18",
+          "ndvi": 0.039049,
+          "past_median": 0.0876055,
+          "past_mad": 0.007625,
+          "standardized_deviation": 4.2952,
+          "history_last_date": "2018-06-04"
+        },
+        {
+          "date": "2020-01-25",
+          "ndvi": 0.006143,
+          "past_median": 0.0803885,
+          "past_mad": 0.00936,
+          "standardized_deviation": 5.3502,
+          "history_last_date": "2020-01-17"
+        },
+        {
+          "date": "2020-02-02",
+          "ndvi": 0.028702,
+          "past_median": 0.078124,
+          "past_mad": 0.010537000000000005,
+          "standardized_deviation": 3.16358,
+          "history_last_date": "2020-01-25"
+        },
+        {
+          "date": "2021-08-31",
+          "ndvi": 0.141249,
+          "past_median": 0.0716935,
+          "past_mad": 0.006984500000000005,
+          "standardized_deviation": 6.71695,
+          "history_last_date": "2021-08-23"
+        },
+        {
+          "date": "2022-01-14",
+          "ndvi": 0.026418,
+          "past_median": 0.07209750000000001,
+          "past_mad": 0.008474999999999996,
+          "standardized_deviation": 3.63545,
+          "history_last_date": "2021-12-29"
+        },
+        {
+          "date": "2022-08-10",
+          "ndvi": 0.128539,
+          "past_median": 0.0762915,
+          "past_mad": 0.0046034999999999965,
+          "standardized_deviation": 7.65514,
+          "history_last_date": "2022-07-01"
+        },
+        {
+          "date": "2022-11-14",
+          "ndvi": 0.054793,
+          "past_median": 0.078413,
+          "past_mad": 0.004681000000000005,
+          "standardized_deviation": 3.40343,
+          "history_last_date": "2022-10-05"
+        },
+        {
+          "date": "2023-01-01",
+          "ndvi": 0.06285,
+          "past_median": 0.078413,
+          "past_mad": 0.0020580000000000043,
+          "standardized_deviation": 5.10063,
+          "history_last_date": "2022-12-24"
+        },
+        {
+          "date": "2023-05-01",
+          "ndvi": 0.025312,
+          "past_median": 0.078499,
+          "past_mad": 0.001628499999999998,
+          "standardized_deviation": 22.02895,
+          "history_last_date": "2023-04-15"
+        },
+        {
+          "date": "2023-07-20",
+          "ndvi": 0.096377,
+          "past_median": 0.0778615,
+          "past_mad": 0.004144000000000002,
+          "standardized_deviation": 3.01364,
+          "history_last_date": "2023-06-02"
+        },
+        {
+          "date": "2023-07-28",
+          "ndvi": 0.149383,
+          "past_median": 0.0778615,
+          "past_mad": 0.005197500000000001,
+          "standardized_deviation": 9.2815,
+          "history_last_date": "2023-07-20"
+        },
+        {
+          "date": "2023-09-22",
+          "ndvi": 0.175165,
+          "past_median": 0.0778615,
+          "past_mad": 0.0055650000000000005,
+          "standardized_deviation": 11.79341,
+          "history_last_date": "2023-09-14"
+        },
+        {
+          "date": "2024-03-24",
+          "ndvi": 0.031503,
+          "past_median": 0.080639,
+          "past_mad": 0.0069069999999999965,
+          "standardized_deviation": 4.79829,
+          "history_last_date": "2024-03-16"
+        },
+        {
+          "date": "2024-08-23",
+          "ndvi": 0.128149,
+          "past_median": 0.076764,
+          "past_mad": 0.0070565,
+          "standardized_deviation": 4.9116,
+          "history_last_date": "2024-08-15"
+        },
+        {
+          "date": "2025-05-22",
+          "ndvi": -0.00825,
+          "past_median": 0.0775095,
+          "past_mad": 0.003971500000000003,
+          "standardized_deviation": 14.56477,
+          "history_last_date": "2025-05-06"
+        },
+        {
+          "date": "2025-07-01",
+          "ndvi": 0.095774,
+          "past_median": 0.075597,
+          "past_mad": 0.004227000000000002,
+          "standardized_deviation": 3.21959,
+          "history_last_date": "2025-06-15"
+        },
+        {
+          "date": "2025-07-09",
+          "ndvi": 0.102657,
+          "past_median": 0.075597,
+          "past_mad": 0.004227000000000002,
+          "standardized_deviation": 4.31789,
+          "history_last_date": "2025-07-01"
+        },
+        {
+          "date": "2025-08-10",
+          "ndvi": 0.111622,
+          "past_median": 0.075597,
+          "past_mad": 0.005124500000000004,
+          "standardized_deviation": 4.74164,
+          "history_last_date": "2025-07-17"
+        }
+      ],
+      "sccd_final_breaks": [
+        "2020-09-29"
+      ],
+      "first_detection_residuals": [
+        {
+          "date": "2020-09-29",
+          "item": "LC08_L2SP_138036_20200929_02_T1",
+          "normalized_residuals": [
+            1.4785,
+            2.323,
+            2.8399,
+            2.3625,
+            2.77,
+            3.046
+          ],
+          "bands_abs_z_ge_3": 1,
+          "available_as_of": "2020-11-24"
+        },
+        {
+          "date": "2020-10-07",
+          "item": "LE07_L2SP_138036_20201007_02_T1",
+          "normalized_residuals": [
+            1.9249,
+            2.7664,
+            3.3421,
+            2.9427,
+            2.9846,
+            3.5867
+          ],
+          "bands_abs_z_ge_3": 2,
+          "available_as_of": "2020-11-24"
+        },
+        {
+          "date": "2020-10-15",
+          "item": "LC08_L2SP_138036_20201015_02_T1",
+          "normalized_residuals": [
+            1.7054,
+            2.5792,
+            3.1135,
+            2.9226,
+            2.5344,
+            2.7827
+          ],
+          "bands_abs_z_ge_3": 1,
+          "available_as_of": "2020-11-24"
+        },
+        {
+          "date": "2020-10-31",
+          "item": "LC08_L2SP_138036_20201031_02_T1",
+          "normalized_residuals": [
+            1.5121,
+            2.1729,
+            2.6106,
+            2.8049,
+            2.4717,
+            2.4225
+          ],
+          "bands_abs_z_ge_3": 0,
+          "available_as_of": "2020-11-24"
+        },
+        {
+          "date": "2020-11-16",
+          "item": "LC08_L2SP_138036_20201116_02_T1",
+          "normalized_residuals": [
+            5.2818,
+            6.3371,
+            6.8953,
+            7.5202,
+            3.3576,
+            3.1429
+          ],
+          "bands_abs_z_ge_3": 6,
+          "available_as_of": "2020-11-24"
+        },
+        {
+          "date": "2020-11-24",
+          "item": "LE07_L2SP_138036_20201124_02_T1",
+          "normalized_residuals": [
+            1.2333,
+            1.9172,
+            2.3874,
+            2.3525,
+            2.0179,
+            2.3846
+          ],
+          "bands_abs_z_ge_3": 0,
+          "available_as_of": "2020-11-24"
+        }
+      ],
+      "limitations": "NDVI flags count isolated deviations, whereas S-CCD segments identify sustained multiband structural changes; counts are not directly comparable accuracy measures. No true-negative labels or independent onset truth. Residuals use the segment available at first detection, never shown earlier."
+    },
+    "background": {
+      "source_id": "landsat-c2l2-fixed-pixel",
+      "method_id": "public-sccd-prefix-plus-ndvi-mad-baseline-v1",
+      "observation_date": "1995–2025; each prefix dated separately",
+      "resolution": "30 m pixel",
+      "valid_n": 526,
+      "ndvi_mad_flags": [
+        {
+          "date": "1997-04-07",
+          "ndvi": 0.02969,
+          "past_median": 0.09941900000000001,
+          "past_mad": 0.012575000000000003,
+          "standardized_deviation": 3.74008,
+          "history_last_date": "1997-03-06"
+        },
+        {
+          "date": "1997-07-28",
+          "ndvi": 0.202022,
+          "past_median": 0.09268499999999999,
+          "past_mad": 0.012870000000000006,
+          "standardized_deviation": 5.73013,
+          "history_last_date": "1997-05-09"
+        },
+        {
+          "date": "1998-08-16",
+          "ndvi": 0.157458,
+          "past_median": 0.087798,
+          "past_mad": 0.013705499999999995,
+          "standardized_deviation": 3.42819,
+          "history_last_date": "1998-04-26"
+        },
+        {
+          "date": "1999-09-28",
+          "ndvi": 0.155921,
+          "past_median": 0.08663,
+          "past_mad": 0.0092895,
+          "standardized_deviation": 5.03107,
+          "history_last_date": "1999-04-29"
+        },
+        {
+          "date": "2000-02-11",
+          "ndvi": 0.027542,
+          "past_median": 0.0869885,
+          "past_mad": 0.010438499999999996,
+          "standardized_deviation": 3.84118,
+          "history_last_date": "2000-01-10"
+        },
+        {
+          "date": "2000-06-02",
+          "ndvi": 0.019826,
+          "past_median": 0.084031,
+          "past_mad": 0.009744999999999997,
+          "standardized_deviation": 4.44389,
+          "history_last_date": "2000-05-09"
+        },
+        {
+          "date": "2000-07-20",
+          "ndvi": 0.26081,
+          "past_median": 0.084031,
+          "past_mad": 0.010116499999999994,
+          "standardized_deviation": 11.78627,
+          "history_last_date": "2000-06-02"
+        },
+        {
+          "date": "2000-08-05",
+          "ndvi": 0.26475,
+          "past_median": 0.084287,
+          "past_mad": 0.010738499999999998,
+          "standardized_deviation": 11.33497,
+          "history_last_date": "2000-07-20"
+        },
+        {
+          "date": "2000-08-29",
+          "ndvi": 0.197976,
+          "past_median": 0.084287,
+          "past_mad": 0.010738499999999998,
+          "standardized_deviation": 7.14087,
+          "history_last_date": "2000-08-05"
+        },
+        {
+          "date": "2000-09-14",
+          "ndvi": 0.194624,
+          "past_median": 0.084287,
+          "past_mad": 0.010738499999999998,
+          "standardized_deviation": 6.93032,
+          "history_last_date": "2000-08-29"
+        },
+        {
+          "date": "2000-09-22",
+          "ndvi": 0.158814,
+          "past_median": 0.084287,
+          "past_mad": 0.010738499999999998,
+          "standardized_deviation": 4.68108,
+          "history_last_date": "2000-09-14"
+        },
+        {
+          "date": "2002-06-24",
+          "ndvi": 0.168966,
+          "past_median": 0.0971175,
+          "past_mad": 0.012734999999999996,
+          "standardized_deviation": 3.80535,
+          "history_last_date": "2002-05-15"
+        },
+        {
+          "date": "2002-07-26",
+          "ndvi": 0.215295,
+          "past_median": 0.0971175,
+          "past_mad": 0.012734999999999996,
+          "standardized_deviation": 6.2591,
+          "history_last_date": "2002-07-02"
+        },
+        {
+          "date": "2002-08-03",
+          "ndvi": 0.232857,
+          "past_median": 0.0971175,
+          "past_mad": 0.012734999999999996,
+          "standardized_deviation": 7.18925,
+          "history_last_date": "2002-07-26"
+        },
+        {
+          "date": "2002-08-27",
+          "ndvi": 0.173398,
+          "past_median": 0.0971175,
+          "past_mad": 0.012734999999999996,
+          "standardized_deviation": 4.04009,
+          "history_last_date": "2002-08-03"
+        },
+        {
+          "date": "2003-07-13",
+          "ndvi": 0.187512,
+          "past_median": 0.0918515,
+          "past_mad": 0.0182765,
+          "standardized_deviation": 3.53033,
+          "history_last_date": "2003-06-27"
+        },
+        {
+          "date": "2003-07-29",
+          "ndvi": 0.22574,
+          "past_median": 0.0918515,
+          "past_mad": 0.0182765,
+          "standardized_deviation": 4.94113,
+          "history_last_date": "2003-07-13"
+        },
+        {
+          "date": "2004-08-16",
+          "ndvi": 0.241956,
+          "past_median": 0.09389800000000001,
+          "past_mad": 0.0236605,
+          "standardized_deviation": 4.22069,
+          "history_last_date": "2004-06-13"
+        },
+        {
+          "date": "2004-09-09",
+          "ndvi": 0.212479,
+          "past_median": 0.09389800000000001,
+          "past_mad": 0.0236605,
+          "standardized_deviation": 3.38039,
+          "history_last_date": "2004-08-16"
+        },
+        {
+          "date": "2005-07-10",
+          "ndvi": 0.196917,
+          "past_median": 0.089227,
+          "past_mad": 0.015775000000000004,
+          "standardized_deviation": 4.6045,
+          "history_last_date": "2005-04-21"
+        },
+        {
+          "date": "2005-08-03",
+          "ndvi": 0.269646,
+          "past_median": 0.09047150000000001,
+          "past_mad": 0.021950000000000004,
+          "standardized_deviation": 5.50577,
+          "history_last_date": "2005-07-10"
+        },
+        {
+          "date": "2005-08-27",
+          "ndvi": 0.260657,
+          "past_median": 0.09194150000000001,
+          "past_mad": 0.024576999999999995,
+          "standardized_deviation": 4.63023,
+          "history_last_date": "2005-08-03"
+        },
+        {
+          "date": "2005-09-12",
+          "ndvi": 0.236851,
+          "past_median": 0.096131,
+          "past_mad": 0.030476999999999994,
+          "standardized_deviation": 3.11429,
+          "history_last_date": "2005-08-27"
+        },
+        {
+          "date": "2006-08-06",
+          "ndvi": 0.238426,
+          "past_median": 0.0884805,
+          "past_mad": 0.011104000000000003,
+          "standardized_deviation": 9.10815,
+          "history_last_date": "2006-05-02"
+        },
+        {
+          "date": "2006-08-14",
+          "ndvi": 0.264881,
+          "past_median": 0.089897,
+          "past_mad": 0.011104000000000003,
+          "standardized_deviation": 10.62906,
+          "history_last_date": "2006-08-06"
+        },
+        {
+          "date": "2006-09-07",
+          "ndvi": 0.240723,
+          "past_median": 0.091137,
+          "past_mad": 0.012175999999999992,
+          "standardized_deviation": 8.28633,
+          "history_last_date": "2006-08-14"
+        },
+        {
+          "date": "2006-09-15",
+          "ndvi": 0.208062,
+          "past_median": 0.0925565,
+          "past_mad": 0.024447,
+          "standardized_deviation": 3.18679,
+          "history_last_date": "2006-09-07"
+        },
+        {
+          "date": "2007-08-01",
+          "ndvi": 0.21894,
+          "past_median": 0.0899555,
+          "past_mad": 0.0121345,
+          "standardized_deviation": 7.16955,
+          "history_last_date": "2007-05-05"
+        },
+        {
+          "date": "2008-06-24",
+          "ndvi": 0.19468,
+          "past_median": 0.089736,
+          "past_mad": 0.012806000000000005,
+          "standardized_deviation": 5.52739,
+          "history_last_date": "2008-06-08"
+        },
+        {
+          "date": "2008-07-18",
+          "ndvi": 0.21465,
+          "past_median": 0.089736,
+          "past_mad": 0.012806000000000005,
+          "standardized_deviation": 6.57921,
+          "history_last_date": "2008-06-24"
+        },
+        {
+          "date": "2008-08-11",
+          "ndvi": 0.246783,
+          "past_median": 0.09268699999999999,
+          "past_mad": 0.014427500000000003,
+          "standardized_deviation": 7.20404,
+          "history_last_date": "2008-07-18"
+        },
+        {
+          "date": "2008-09-20",
+          "ndvi": 0.193476,
+          "past_median": 0.09268699999999999,
+          "past_mad": 0.015053999999999991,
+          "standardized_deviation": 4.51583,
+          "history_last_date": "2008-08-11"
+        },
+        {
+          "date": "2009-08-30",
+          "ndvi": 0.258009,
+          "past_median": 0.1013645,
+          "past_mad": 0.022091,
+          "standardized_deviation": 4.78273,
+          "history_last_date": "2009-06-11"
+        },
+        {
+          "date": "2010-06-30",
+          "ndvi": 0.272703,
+          "past_median": 0.102144,
+          "past_mad": 0.011548500000000003,
+          "standardized_deviation": 9.96151,
+          "history_last_date": "2010-05-05"
+        },
+        {
+          "date": "2010-08-01",
+          "ndvi": 0.279921,
+          "past_median": 0.102144,
+          "past_mad": 0.011962500000000001,
+          "standardized_deviation": 10.02374,
+          "history_last_date": "2010-06-30"
+        },
+        {
+          "date": "2010-09-02",
+          "ndvi": 0.283429,
+          "past_median": 0.1035355,
+          "past_mad": 0.012537,
+          "standardized_deviation": 9.67827,
+          "history_last_date": "2010-08-01"
+        },
+        {
+          "date": "2010-09-10",
+          "ndvi": 0.230374,
+          "past_median": 0.1035355,
+          "past_mad": 0.012537,
+          "standardized_deviation": 6.82391,
+          "history_last_date": "2010-09-02"
+        },
+        {
+          "date": "2010-09-18",
+          "ndvi": 0.220451,
+          "past_median": 0.1035355,
+          "past_mad": 0.012537,
+          "standardized_deviation": 6.29006,
+          "history_last_date": "2010-09-10"
+        },
+        {
+          "date": "2011-08-12",
+          "ndvi": 0.259523,
+          "past_median": 0.11605,
+          "past_mad": 0.032195,
+          "standardized_deviation": 3.00578,
+          "history_last_date": "2011-06-17"
+        },
+        {
+          "date": "2013-08-01",
+          "ndvi": 0.264965,
+          "past_median": 0.11526900000000001,
+          "past_mad": 0.0332895,
+          "standardized_deviation": 3.03305,
+          "history_last_date": "2013-06-14"
+        },
+        {
+          "date": "2013-08-09",
+          "ndvi": 0.29282,
+          "past_median": 0.11697199999999999,
+          "past_mad": 0.03158650000000002,
+          "standardized_deviation": 3.75502,
+          "history_last_date": "2013-08-01"
+        },
+        {
+          "date": "2014-07-11",
+          "ndvi": 0.296951,
+          "past_median": 0.12407299999999999,
+          "past_mad": 0.029363999999999987,
+          "standardized_deviation": 3.97101,
+          "history_last_date": "2014-07-03"
+        },
+        {
+          "date": "2014-07-27",
+          "ndvi": 0.31607,
+          "past_median": 0.12407299999999999,
+          "past_mad": 0.029363999999999987,
+          "standardized_deviation": 4.41017,
+          "history_last_date": "2014-07-11"
+        },
+        {
+          "date": "2014-08-12",
+          "ndvi": 0.399881,
+          "past_median": 0.12407299999999999,
+          "past_mad": 0.029363999999999987,
+          "standardized_deviation": 6.33531,
+          "history_last_date": "2014-07-27"
+        },
+        {
+          "date": "2014-09-05",
+          "ndvi": 0.259113,
+          "past_median": 0.12407299999999999,
+          "past_mad": 0.029363999999999987,
+          "standardized_deviation": 3.10187,
+          "history_last_date": "2014-08-12"
+        },
+        {
+          "date": "2015-06-28",
+          "ndvi": 0.299079,
+          "past_median": 0.1300125,
+          "past_mad": 0.018009999999999998,
+          "standardized_deviation": 6.33169,
+          "history_last_date": "2015-06-04"
+        },
+        {
+          "date": "2015-07-06",
+          "ndvi": 0.249924,
+          "past_median": 0.1300125,
+          "past_mad": 0.018009999999999998,
+          "standardized_deviation": 4.49079,
+          "history_last_date": "2015-06-28"
+        },
+        {
+          "date": "2015-07-22",
+          "ndvi": 0.243175,
+          "past_median": 0.1300125,
+          "past_mad": 0.018009999999999998,
+          "standardized_deviation": 4.23804,
+          "history_last_date": "2015-07-06"
+        },
+        {
+          "date": "2015-07-30",
+          "ndvi": 0.270448,
+          "past_median": 0.1300125,
+          "past_mad": 0.0201565,
+          "standardized_deviation": 4.69935,
+          "history_last_date": "2015-07-22"
+        },
+        {
+          "date": "2016-07-16",
+          "ndvi": 0.26013,
+          "past_median": 0.1473705,
+          "past_mad": 0.022277000000000005,
+          "standardized_deviation": 3.41407,
+          "history_last_date": "2016-06-22"
+        },
+        {
+          "date": "2016-08-01",
+          "ndvi": 0.284791,
+          "past_median": 0.1473705,
+          "past_mad": 0.022277000000000005,
+          "standardized_deviation": 4.16074,
+          "history_last_date": "2016-07-16"
+        },
+        {
+          "date": "2016-08-09",
+          "ndvi": 0.255196,
+          "past_median": 0.1473705,
+          "past_mad": 0.022277000000000005,
+          "standardized_deviation": 3.26468,
+          "history_last_date": "2016-08-01"
+        },
+        {
+          "date": "2016-08-17",
+          "ndvi": 0.3796,
+          "past_median": 0.1529545,
+          "past_mad": 0.022362000000000007,
+          "standardized_deviation": 6.83616,
+          "history_last_date": "2016-08-09"
+        },
+        {
+          "date": "2016-09-10",
+          "ndvi": 0.280953,
+          "past_median": 0.158353,
+          "past_mad": 0.025997000000000006,
+          "standardized_deviation": 3.18085,
+          "history_last_date": "2016-08-17"
+        },
+        {
+          "date": "2017-08-04",
+          "ndvi": 0.289408,
+          "past_median": 0.1351325,
+          "past_mad": 0.028339500000000004,
+          "standardized_deviation": 3.67181,
+          "history_last_date": "2017-07-19"
+        },
+        {
+          "date": "2017-09-05",
+          "ndvi": 0.354424,
+          "past_median": 0.1351325,
+          "past_mad": 0.028339500000000004,
+          "standardized_deviation": 5.21922,
+          "history_last_date": "2017-08-12"
+        },
+        {
+          "date": "2017-09-21",
+          "ndvi": 0.271154,
+          "past_median": 0.1351325,
+          "past_mad": 0.028339500000000004,
+          "standardized_deviation": 3.23736,
+          "history_last_date": "2017-09-05"
+        },
+        {
+          "date": "2018-07-30",
+          "ndvi": 0.298852,
+          "past_median": 0.14576450000000002,
+          "past_mad": 0.015750999999999973,
+          "standardized_deviation": 6.55553,
+          "history_last_date": "2018-06-04"
+        },
+        {
+          "date": "2018-08-23",
+          "ndvi": 0.327397,
+          "past_median": 0.14576450000000002,
+          "past_mad": 0.021091,
+          "standardized_deviation": 5.80861,
+          "history_last_date": "2018-07-30"
+        },
+        {
+          "date": "2019-07-09",
+          "ndvi": 0.338256,
+          "past_median": 0.1488235,
+          "past_mad": 0.014911999999999995,
+          "standardized_deviation": 8.5683,
+          "history_last_date": "2019-06-15"
+        },
+        {
+          "date": "2019-07-25",
+          "ndvi": 0.332676,
+          "past_median": 0.1505185,
+          "past_mad": 0.015704499999999996,
+          "standardized_deviation": 7.82346,
+          "history_last_date": "2019-07-09"
+        },
+        {
+          "date": "2019-08-02",
+          "ndvi": 0.333186,
+          "past_median": 0.15238249999999998,
+          "past_mad": 0.015704499999999996,
+          "standardized_deviation": 7.76531,
+          "history_last_date": "2019-07-25"
+        },
+        {
+          "date": "2019-08-10",
+          "ndvi": 0.329318,
+          "past_median": 0.1544775,
+          "past_mad": 0.027593999999999987,
+          "standardized_deviation": 4.27369,
+          "history_last_date": "2019-08-02"
+        },
+        {
+          "date": "2019-09-11",
+          "ndvi": 0.313081,
+          "past_median": 0.1604465,
+          "past_mad": 0.030939499999999995,
+          "standardized_deviation": 3.32748,
+          "history_last_date": "2019-08-10"
+        },
+        {
+          "date": "2021-06-28",
+          "ndvi": 0.341556,
+          "past_median": 0.159833,
+          "past_mad": 0.020581500000000003,
+          "standardized_deviation": 5.95537,
+          "history_last_date": "2021-06-12"
+        },
+        {
+          "date": "2021-07-30",
+          "ndvi": 0.35404,
+          "past_median": 0.159833,
+          "past_mad": 0.020581500000000003,
+          "standardized_deviation": 6.36449,
+          "history_last_date": "2021-06-28"
+        },
+        {
+          "date": "2021-08-31",
+          "ndvi": 0.39943,
+          "past_median": 0.159833,
+          "past_mad": 0.020581500000000003,
+          "standardized_deviation": 7.852,
+          "history_last_date": "2021-07-30"
+        },
+        {
+          "date": "2021-09-08",
+          "ndvi": 0.294037,
+          "past_median": 0.159833,
+          "past_mad": 0.020581500000000003,
+          "standardized_deviation": 4.39809,
+          "history_last_date": "2021-08-31"
+        },
+        {
+          "date": "2022-06-23",
+          "ndvi": 0.301559,
+          "past_median": 0.1613175,
+          "past_mad": 0.012487999999999999,
+          "standardized_deviation": 7.5746,
+          "history_last_date": "2022-05-14"
+        },
+        {
+          "date": "2022-07-01",
+          "ndvi": 0.267848,
+          "past_median": 0.1613175,
+          "past_mad": 0.014586999999999989,
+          "standardized_deviation": 4.92588,
+          "history_last_date": "2022-06-23"
+        },
+        {
+          "date": "2022-08-02",
+          "ndvi": 0.387276,
+          "past_median": 0.1613175,
+          "past_mad": 0.014586999999999989,
+          "standardized_deviation": 10.44813,
+          "history_last_date": "2022-07-01"
+        },
+        {
+          "date": "2022-08-10",
+          "ndvi": 0.24609,
+          "past_median": 0.1613175,
+          "past_mad": 0.014586999999999989,
+          "standardized_deviation": 3.91981,
+          "history_last_date": "2022-08-02"
+        },
+        {
+          "date": "2022-09-11",
+          "ndvi": 0.314923,
+          "past_median": 0.1664835,
+          "past_mad": 0.012865000000000001,
+          "standardized_deviation": 7.78244,
+          "history_last_date": "2022-08-10"
+        },
+        {
+          "date": "2022-09-19",
+          "ndvi": 0.31796,
+          "past_median": 0.1664835,
+          "past_mad": 0.014453000000000008,
+          "standardized_deviation": 7.06909,
+          "history_last_date": "2022-09-11"
+        },
+        {
+          "date": "2023-07-20",
+          "ndvi": 0.338432,
+          "past_median": 0.169719,
+          "past_mad": 0.03391250000000001,
+          "standardized_deviation": 3.35556,
+          "history_last_date": "2023-06-02"
+        },
+        {
+          "date": "2023-08-21",
+          "ndvi": 0.390121,
+          "past_median": 0.169719,
+          "past_mad": 0.03391250000000001,
+          "standardized_deviation": 4.38361,
+          "history_last_date": "2023-07-20"
+        },
+        {
+          "date": "2024-02-21",
+          "ndvi": 0.094422,
+          "past_median": 0.171219,
+          "past_mad": 0.0087565,
+          "standardized_deviation": 5.91548,
+          "history_last_date": "2024-02-13"
+        },
+        {
+          "date": "2024-06-04",
+          "ndvi": 0.243927,
+          "past_median": 0.167523,
+          "past_mad": 0.009447499999999998,
+          "standardized_deviation": 5.45475,
+          "history_last_date": "2024-05-19"
+        },
+        {
+          "date": "2024-06-28",
+          "ndvi": 0.328965,
+          "past_median": 0.167523,
+          "past_mad": 0.009447499999999998,
+          "standardized_deviation": 11.52592,
+          "history_last_date": "2024-06-04"
+        },
+        {
+          "date": "2024-07-30",
+          "ndvi": 0.395705,
+          "past_median": 0.167523,
+          "past_mad": 0.009447499999999998,
+          "standardized_deviation": 16.29073,
+          "history_last_date": "2024-06-28"
+        },
+        {
+          "date": "2024-08-15",
+          "ndvi": 0.405897,
+          "past_median": 0.167523,
+          "past_mad": 0.010388999999999995,
+          "standardized_deviation": 15.47609,
+          "history_last_date": "2024-07-30"
+        },
+        {
+          "date": "2024-08-31",
+          "ndvi": 0.321619,
+          "past_median": 0.169514,
+          "past_mad": 0.011315999999999993,
+          "standardized_deviation": 9.06623,
+          "history_last_date": "2024-08-15"
+        },
+        {
+          "date": "2024-09-24",
+          "ndvi": 0.309685,
+          "past_median": 0.171219,
+          "past_mad": 0.017150500000000013,
+          "standardized_deviation": 5.44556,
+          "history_last_date": "2024-09-16"
+        },
+        {
+          "date": "2025-07-01",
+          "ndvi": 0.294318,
+          "past_median": 0.1749415,
+          "past_mad": 0.013784000000000005,
+          "standardized_deviation": 5.84144,
+          "history_last_date": "2025-06-15"
+        },
+        {
+          "date": "2025-07-09",
+          "ndvi": 0.265471,
+          "past_median": 0.1749415,
+          "past_mad": 0.013784000000000005,
+          "standardized_deviation": 4.42987,
+          "history_last_date": "2025-07-01"
+        },
+        {
+          "date": "2025-07-17",
+          "ndvi": 0.293702,
+          "past_median": 0.1749415,
+          "past_mad": 0.013784000000000005,
+          "standardized_deviation": 5.81129,
+          "history_last_date": "2025-07-09"
+        },
+        {
+          "date": "2025-08-10",
+          "ndvi": 0.404848,
+          "past_median": 0.1749415,
+          "past_mad": 0.013784000000000005,
+          "standardized_deviation": 11.24999,
+          "history_last_date": "2025-07-17"
+        },
+        {
+          "date": "2025-08-18",
+          "ndvi": 0.403663,
+          "past_median": 0.1749415,
+          "past_mad": 0.014435500000000004,
+          "standardized_deviation": 10.68689,
+          "history_last_date": "2025-08-10"
+        },
+        {
+          "date": "2025-09-03",
+          "ndvi": 0.278361,
+          "past_median": 0.1749415,
+          "past_mad": 0.01930749999999999,
+          "standardized_deviation": 3.61287,
+          "history_last_date": "2025-08-18"
+        }
+      ],
+      "sccd_final_breaks": [],
+      "first_detection_residuals": [],
+      "limitations": "NDVI flags count isolated deviations, whereas S-CCD segments identify sustained multiband structural changes; counts are not directly comparable accuracy measures. No true-negative labels or independent onset truth. Residuals use the segment available at first detection, never shown earlier."
+    }
+  },
+  "public_rules": {
+    "baseline": "previous 20 valid NDVI samples; abs(current-median) > 3 * max(1.4826*MAD, 0.0001)",
+    "candidate": "Use only S-CCD segments available at selected cutoff. Terrain, maps and land cover are separately dated context, not inputs to past replay.",
+    "classification": "No trained binary classifier: public sources contain zero independently verified non-RTS labels."
+  },
+  "type": "可审计规则辅助判读，非训练分类模型"
+}

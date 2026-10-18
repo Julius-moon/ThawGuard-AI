@@ -1,0 +1,195 @@
+[
+  {
+    "id": 10928346,
+    "doi": "10.5281/zenodo.10928346",
+    "metadata": {
+      "title": "Annual inventories of retrogressive thaw slumps across the Qinghai-Tibet Plateau from 2016 to 2022",
+      "doi": "10.5281/zenodo.10928346",
+      "publication_date": "2024-04-04",
+      "description": "<p>The dataset is retrogressive thaw slump inventories with annual intervals across the plateau from 2016 to 2022. It contains the boundaries of thaw slumps delineated yearly based on the PlanetScope Scenes with high resolution (3-5 m). The inventories were compiled semi-automatically by combining deep-learning detection and manual delineation. We assigned a unique ID to every RTS in 2022 and the corresponding polygons in previous years. For RTSs merged into one in 2022, we assigned the same ID to make them traceable. We also clustered the RTSs based on the locations. It is the first of this kind to provide annual large-scale thaw slump observations across the QTP and can potentially be a benchmark for monitoring permafrost and evaluating its impact. The vector file in shapefile format contains the boundary of each hot melt collapse. The name of the file is &ldquo;QTP_RTS_YYYY&rdquo;, with the &lsquo;YYYY&rsquo; representing the year of the boundaries. Relevant attribute tables include unique numbers, area (units:&nbsp;m<sup>2</sup>), longitude and latitude, and clusters that RTSs are in, with the corresponding names of the table fields 'id', 'Area', 'Longitude', 'Latitude' and 'Cluster'.</p>",
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Xia, Zhuoxuan",
+          "affiliation": "Chinese University of Hong Kong",
+          "orcid": "0000-0002-2467-5526"
+        },
+        {
+          "name": "Liu, Lin",
+          "affiliation": "Chinese University of Hong Kong",
+          "orcid": "0000-0002-9581-1337"
+        },
+        {
+          "name": "Mu, Cuicui",
+          "affiliation": "Lanzhou University",
+          "orcid": "0000-0003-0630-9423"
+        },
+        {
+          "name": "Peng, Xiaoqing",
+          "affiliation": "Lanzhou University",
+          "orcid": "0000-0002-2285-5611"
+        },
+        {
+          "name": "Zhao, Zhuoyi",
+          "affiliation": "Chinese University of Hong Kong"
+        },
+        {
+          "name": "Huang, Lingcao",
+          "affiliation": "Chinese University of Hong Kong",
+          "orcid": "0000-0003-3072-7334"
+        },
+        {
+          "name": "Luo, Jing",
+          "affiliation": "State Key Laboratory of Frozen Soil Engineering, Northwest Institute of Eco-Environment and Resources, Chinese Academy of Sciences",
+          "orcid": "0000-0002-9407-390X"
+        },
+        {
+          "name": "Fan, Chengyan",
+          "affiliation": "Lanzhou University",
+          "orcid": "0000-0002-2601-2531"
+        }
+      ],
+      "resource_type": {
+        "title": "Dataset",
+        "type": "dataset"
+      },
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "relations": {
+        "version": [
+          {
+            "index": 1,
+            "is_last": true,
+            "parent": {
+              "pid_type": "recid",
+              "pid_value": "10917080"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 8103939,
+    "doi": "10.5281/zenodo.8103939",
+    "metadata": {
+      "title": "Retrogressive thaw slump (RTS) inventory in central Qinghai-Tibet Plateau (northwest of Beiluhe basin)",
+      "doi": "10.5281/zenodo.8103939",
+      "publication_date": "2023-07-01",
+      "description": "<p>A new retrogressive thaw slump&nbsp;(RTS) inventory in central Qinghai&ndash;Tibet Plateau (QTP) were generated based on&nbsp;visual interpretation of nine satellite images (WV-2, Google Earth image, Ziyuan-3, Gaofen-2, Gaofen-1) and field investigations. A total 459 RTSs were confirmed with an accumulative area of 1199.49 ha (in time slice of 2018-2020). To reduce the uncertainty in identifying the RTS boundaries, all of the images were spatially corrected based on a reference image, which was obtained on 29 December 2015.&nbsp;The RTS inventory published by Luo et al., (2022) and Xia et al., (2022) were refered when we conduct visual interpretation. Note:&nbsp;the RTSs were distingusihed into active RTSs (TYPE=Y) and non-active RTSs (TYPE=N). Those RTSs were neither active nor non-active RTSs when their area increase&nbsp;vary from 0 to 0.01 ha or less than 0 (TYPE=T). The field&nbsp;named &quot;area_ha&quot;, &quot;perime_km&quot; are the area and perimeter of the RTSs in the attribute tables of shapefiles. The units of area and perimeters are hectare (ha)&nbsp;and kilometer (km), respectively. The field named &quot;type&quot; indicates the status of RTSs. The &quot;Y&quot; and &quot;N&quot; are means the RTS is belongs to&nbsp;active RTS and non-active, respectively.</p>",
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Yang dongdong",
+          "affiliation": "Northwest University"
+        },
+        {
+          "name": "Qiu haijun",
+          "affiliation": "Northwest University"
+        },
+        {
+          "name": "Ye bingfeng",
+          "affiliation": "Northwest University"
+        },
+        {
+          "name": "Liu ya",
+          "affiliation": "Northwest University"
+        },
+        {
+          "name": "Zhang juanjuan",
+          "affiliation": "Northwest University"
+        },
+        {
+          "name": "Zhu yaru",
+          "affiliation": "Northwest University"
+        }
+      ],
+      "references": [
+        "Luo, J., Niu, F., Lin, Z., Liu, M., Yin, G., & Gao, Z. (2022). Inventory and frequency of retrogressive thaw slumps in permafrost region of the Qinghai–Tibet Plateau. Geophysical Research Letters, 49(23), e2022GL099829. doi.org/10.1029/2022GL099829",
+        "Xia, Z., Huang, L., Fan, C., Jia, S., Lin, Z., Liu, L., ... & Zhang, T. (2022). Retrogressive thaw slumps along the Qinghai–Tibet Engineering Corridor: a comprehensive inventory and their distribution characteristics. Earth System Science Data, 14(9), 3875-3887."
+      ],
+      "resource_type": {
+        "title": "Dataset",
+        "type": "dataset"
+      },
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "relations": {
+        "version": [
+          {
+            "index": 2,
+            "is_last": true,
+            "parent": {
+              "pid_type": "recid",
+              "pid_value": "7784839"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 21693485,
+    "doi": "10.5281/zenodo.21693485",
+    "metadata": {
+      "title": "60-year (1964 to 2024) retrogressive thaw slump inventory in the Beiluhe region of the central Qinghai–Tibet Plateau",
+      "doi": "10.5281/zenodo.21693485",
+      "publication_date": "2026-07-29",
+      "description": "<p>The dataset is retrogressive thaw slump inventories with annual intervals in the Beiluhe region of the central Qinghai&ndash;Tibet Plateau from 1964 to 2024. It contains the boundaries of thaw slumps delineated yearly based on the KH-4 and -9 images from 1965 to 1984, Landsat imagery archives from 1986 to 2022, QuickBird and Worldview images from 2006 to 2014, SPOT5 images from 2009 to 2011, RapidEye images in 2015, and PlanetScope images from 2016 to 2024. The inventories were compiled based on manual delineation and deep learning.</p>\n<p>We merged all RTSs from the annual inventory and grouped those with spatial overlaps. Each group was assigned a unique identifier (&lsquo;uid&rsquo;). Then, we assigned a secondary identifier (&lsquo;sid&rsquo;) to distinguish separate RTSs within the same group. The group identifier together with the secondary identifier formed the final &lsquo;id&rsquo;, which is in the form of &lsquo;uid_sid&rsquo;. We retained the same &lsquo;id&rsquo; to maintain tracking continuity for reactivated thaw slumps (those recurring at the same location). To fill the temporal gaps when the satellite image archives were incomplete, we reserved the RTS boundaries in the previous year and labeled the RTS as 'gap-filled'.</p>\n<p>Each file is named \"RTS_YYYY\", where <em>YYYY</em> denotes the year of the mapped RTS boundaries. The corresponding attribute table contains the RTS area (m&sup2;), group identifier, secondary identifier, unique identifier, and gap-filling flag, stored in the fields <em>area</em>, <em>uid</em>, <em>sid</em>, <em>id</em>, and <em>gap_filled</em>, respectively.</p>",
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Zhuoxuan, XIA",
+          "affiliation": "Chinese University of Hong Kong",
+          "orcid": "0000-0002-2467-5526"
+        },
+        {
+          "name": "Zhao, Zhuoyi",
+          "affiliation": "University of Colorado Boulder",
+          "orcid": "0009-0006-9348-640X"
+        },
+        {
+          "name": "Liu, Lin",
+          "affiliation": "The Chinese University of Hong Kong",
+          "orcid": "0000-0002-9581-1337"
+        },
+        {
+          "name": "Huang, Lingcao",
+          "affiliation": "Chinese University of Hong Kong",
+          "orcid": "0000-0003-3072-7334"
+        },
+        {
+          "name": "Gascoin, Simon",
+          "affiliation": "CNRS",
+          "orcid": "0000-0002-4996-6768"
+        },
+        {
+          "name": "Lara, Mark",
+          "affiliation": "University of Illinois System",
+          "orcid": "0000-0002-4670-7031"
+        }
+      ],
+      "resource_type": {
+        "title": "Dataset",
+        "type": "dataset"
+      },
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "relations": {
+        "version": [
+          {
+            "index": 2,
+            "is_last": true,
+            "parent": {
+              "pid_type": "recid",
+              "pid_value": "18704715"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

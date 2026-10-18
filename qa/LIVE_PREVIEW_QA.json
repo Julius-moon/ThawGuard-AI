@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "url": "http://127.0.0.1:8000/",
+  "html_sha256": "3642f420b3b62fcb3a0f126170472e900e1c2db847abf98c1921d58ac7fcc288",
+  "count": 8,
+  "checks": [
+    "Bundled one-command Node fallback returns HTTP 200",
+    "Fallback serves byte-identical frozen HTML",
+    "Fallback exposes only index.html, not workspace files",
+    "Fresh landing screenshot contains no leftover export notification",
+    "Live prefix route has no break before first-detection observation",
+    "Live route shows actual first detectable observation",
+    "Live route shows actual OSM proximity",
+    "Local preview route has no external requests or script errors"
+  ],
+  "errors": [],
+  "external": [],
+  "notes": "Screenshots captured from fresh real Edge context. Local-only server, no public deployment."
+}

@@ -1,0 +1,154 @@
+[
+  {
+    "key": "rts-1938",
+    "year": 2019,
+    "date": "2019-08-10",
+    "item": "LC08_L2SP_138036_20190810_02_T1",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory-v6/landsat-rts-1938-2019-08-10.png",
+    "cloud_cover_scene_pct": 0.72,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_138036_20190810_02_T1",
+    "sensor": "Landsat",
+    "resolution_m": 30,
+    "rendering": "True-color public image crop; scene cloud cover is not ROI quality",
+    "purpose": "landsat_input_context"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2020,
+    "date": "2020-09-29",
+    "item": "LC08_L2SP_138036_20200929_02_T1",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory-v6/landsat-rts-1938-2020-09-29.png",
+    "cloud_cover_scene_pct": 1.63,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_138036_20200929_02_T1",
+    "sensor": "Landsat",
+    "resolution_m": 30,
+    "rendering": "True-color public image crop; scene cloud cover is not ROI quality",
+    "purpose": "landsat_input_context"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2021,
+    "date": "2021-07-30",
+    "item": "LC08_L2SP_138036_20210730_02_T1",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory-v6/landsat-rts-1938-2021-07-30.png",
+    "cloud_cover_scene_pct": 9.19,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_138036_20210730_02_T1",
+    "sensor": "Landsat",
+    "resolution_m": 30,
+    "rendering": "True-color public image crop; scene cloud cover is not ROI quality",
+    "purpose": "landsat_input_context"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2020,
+    "date": "2020-09-05",
+    "item": "LE07_L2SP_138036_20200905_02_T1",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory-v6/landsat-rts-1938-2020-09-05.png",
+    "cloud_cover_scene_pct": 31.0,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LE07_L2SP_138036_20200905_02_T1",
+    "sensor": "Landsat",
+    "resolution_m": 30,
+    "rendering": "True-color public image crop; scene cloud cover is not ROI quality",
+    "purpose": "landsat_input_context"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2020,
+    "date": "2020-11-24",
+    "item": "LE07_L2SP_138036_20201124_02_T1",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory-v6/landsat-rts-1938-2020-11-24.png",
+    "cloud_cover_scene_pct": 7.0,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LE07_L2SP_138036_20201124_02_T1",
+    "sensor": "Landsat",
+    "resolution_m": 30,
+    "rendering": "True-color public image crop; scene cloud cover is not ROI quality",
+    "purpose": "landsat_input_context"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2019,
+    "date": "2019-08-15",
+    "item": "S2B_MSIL2A_20190815T042709_R133_T46SDD_20201005T004432",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory-v6/sentinel-rts-1938-2019-08-15.png",
+    "cloud_cover_scene_pct": 0.045145,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20190815T042709_R133_T46SDD_20201005T004432",
+    "sensor": "Sentinel-2",
+    "resolution_m": 10,
+    "rendering": "True-color public image crop; scene cloud cover is not ROI quality",
+    "purpose": "reference_not_sccd_input"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2020,
+    "date": "2020-08-19",
+    "item": "S2B_MSIL2A_20200819T042709_R133_T46SDD_20200919T125458",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory-v6/sentinel-rts-1938-2020-08-19.png",
+    "cloud_cover_scene_pct": 0.117648,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20200819T042709_R133_T46SDD_20200919T125458",
+    "sensor": "Sentinel-2",
+    "resolution_m": 10,
+    "rendering": "True-color public image crop; scene cloud cover is not ROI quality",
+    "purpose": "reference_not_sccd_input"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2021,
+    "date": "2021-09-11",
+    "item": "S2A_MSIL2A_20210911T043701_R033_T46SDD_20210911T171914",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory-v6/sentinel-rts-1938-2021-09-11.png",
+    "cloud_cover_scene_pct": 2.451626,
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2A_MSIL2A_20210911T043701_R033_T46SDD_20210911T171914",
+    "sensor": "Sentinel-2",
+    "resolution_m": 10,
+    "rendering": "True-color public image crop; scene cloud cover is not ROI quality",
+    "purpose": "reference_not_sccd_input"
+  }
+]

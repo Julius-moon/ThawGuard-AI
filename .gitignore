@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.venv/
+.env
+.env.*
+*.log
+
+!qa/model_run.log
+!deliverables/observatory-v7/model_run.log
+.verification/
+.build/
+.python-deps/

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "date": "2026-10-18",
+  "sha256": "3642f420b3b62fcb3a0f126170472e900e1c2db847abf98c1921d58ac7fcc288",
+  "byte_identical": true,
+  "bytes": 13181101,
+  "source_package_extracted": true,
+  "build_command": "npm run build:final",
+  "dependencies": "Reused installed project node_modules through a local junction; Python checks use existing Python 3.11 virtual environment. Not a fresh npm ci or pip install test.",
+  "copied_source_science_checks": 117,
+  "private_ppt_or_parameters_required": false
+}

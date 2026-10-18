@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "count": 16,
+  "checks": [
+    "PowerShell-only runtime returns HTTP 200",
+    "HTTP response equals frozen offline HTML",
+    "HEAD works without sending the body",
+    "Runtime exposes no source, configuration or Git paths",
+    "Runtime rejects write methods",
+    "Page 1 works using only Windows runtime",
+    "Page 2 works using only Windows runtime",
+    "Page 3 works using only Windows runtime",
+    "Page 4 works using only Windows runtime",
+    "Page 5 works using only Windows runtime",
+    "Page 6 works using only Windows runtime",
+    "Actual prefix before detection shows no break",
+    "First-detection observation changes actual replay",
+    "Runtime permits dated same-case report export",
+    "Exported report remains offline and self-contained",
+    "No JavaScript errors or external requests on tested runtime route"
+  ],
+  "errors": [],
+  "external": [],
+  "html_sha256": "3642f420b3b62fcb3a0f126170472e900e1c2db847abf98c1921d58ac7fcc288",
+  "runtime": "Windows built-in PowerShell 5.1 / .NET TcpListener; application does not require Node or Python",
+  "test_harness": "Playwright/Node used only as verifier",
+  "browser_version": "155.0.4283.45",
+  "physical_devices": 1
+}

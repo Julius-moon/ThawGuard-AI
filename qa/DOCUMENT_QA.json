@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "local_links_checked": 7,
+  "links": [
+    "media/demo-preview.png",
+    "docs/DATA_AND_AI.md",
+    "docs/ATTRIBUTION.md",
+    "docs/VALIDATION_90_DAYS.md",
+    "docs/REPRODUCIBILITY.md",
+    "docs/VALIDATION_REPORT.md",
+    "RIGHTS.md"
+  ],
+  "source_bundle_rebuild": "passed",
+  "final_html_sha256": "3642f420b3b62fcb3a0f126170472e900e1c2db847abf98c1921d58ac7fcc288"
+}

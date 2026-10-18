@@ -1,0 +1,78 @@
+[
+  {
+    "key": "rts-1938",
+    "year": 2021,
+    "date": "2021-09-11",
+    "item": "S2A_MSIL2A_20210911T043701_R033_T46SDD_20210911T171914",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory-v7/S2A_MSIL2A_20210911T043701_R033_T46SDD_20210911T171914.png",
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2A_MSIL2A_20210911T043701_R033_T46SDD_20210911T171914",
+    "sensor": "Sentinel-2",
+    "resolution_m": 10,
+    "cloud_cover_scene_pct": 2.451626,
+    "rendering": "B04/B03/B02 fixed common DN stretch 400..4400; native SCL 20m nearest-mask classes 4/5/6; bbox 800px rendering adds no detail",
+    "purpose": "reference_not_sccd_input"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2019,
+    "date": "2019-08-15",
+    "item": "S2B_MSIL2A_20190815T042709_R133_T46SDD_20201005T004432",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory-v7/S2B_MSIL2A_20190815T042709_R133_T46SDD_20201005T004432.png",
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20190815T042709_R133_T46SDD_20201005T004432",
+    "sensor": "Sentinel-2",
+    "resolution_m": 10,
+    "cloud_cover_scene_pct": 0.045145,
+    "rendering": "B04/B03/B02 fixed common DN stretch 400..4400; native SCL 20m nearest-mask classes 4/5/6; bbox 800px rendering adds no detail",
+    "purpose": "reference_not_sccd_input"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2020,
+    "date": "2020-09-21",
+    "item": "S2B_MSIL2A_20200921T043659_R033_T46SDD_20200924T114228",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory-v7/S2B_MSIL2A_20200921T043659_R033_T46SDD_20200924T114228.png",
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20200921T043659_R033_T46SDD_20200924T114228",
+    "sensor": "Sentinel-2",
+    "resolution_m": 10,
+    "cloud_cover_scene_pct": 16.761675,
+    "rendering": "B04/B03/B02 fixed common DN stretch 400..4400; native SCL 20m nearest-mask classes 4/5/6; bbox 800px rendering adds no detail",
+    "purpose": "reference_not_sccd_input"
+  },
+  {
+    "key": "rts-1938",
+    "year": 2020,
+    "date": "2020-10-01",
+    "item": "S2B_MSIL2A_20201001T043709_R033_T46SDD_20201004T163025",
+    "bounds": [
+      92.71984880307332,
+      35.06988025304429,
+      92.7352949222046,
+      35.08233905912991
+    ],
+    "path": "/images/observatory-v7/S2B_MSIL2A_20201001T043709_R033_T46SDD_20201004T163025.png",
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20201001T043709_R033_T46SDD_20201004T163025",
+    "sensor": "Sentinel-2",
+    "resolution_m": 10,
+    "cloud_cover_scene_pct": 0.146625,
+    "rendering": "B04/B03/B02 fixed common DN stretch 400..4400; native SCL 20m nearest-mask classes 4/5/6; bbox 800px rendering adds no detail",
+    "purpose": "reference_not_sccd_input"
+  }
+]

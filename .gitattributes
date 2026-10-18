@@ -1,0 +1,4 @@
+* -text
+index.html -diff
+*.png binary
+*.zip binary

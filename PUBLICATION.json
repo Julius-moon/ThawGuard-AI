@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/shixuemin06-netizen/ThawGuard-AI",
+  "visibility": "public",
+  "repository_created": true,
+  "release_tag": "v7-final",
+  "stage": "repository prepared; release download verification recorded separately after publishing",
+  "html_sha256": "3642f420b3b62fcb3a0f126170472e900e1c2db847abf98c1921d58ac7fcc288",
+  "second_physical_device_tested": false,
+  "competition_submission_performed": false
+}

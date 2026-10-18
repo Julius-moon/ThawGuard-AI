@@ -1,0 +1,115 @@
+{
+  "algorithm": "S-CCD",
+  "implementation": "pyxccd",
+  "version": "1.1.0",
+  "configuration": "unmodified public defaults",
+  "data": "USGS Landsat Collection 2 Level 2 Tier 1 only; public Planetary Computer STAC + point API",
+  "period": "1995–2025",
+  "bands": [
+    "blue",
+    "green",
+    "red",
+    "nir08",
+    "swir16",
+    "swir22"
+  ],
+  "scaling": "reflectance = DN × 0.0000275 − 0.2; algorithm input reflectance × 10000 rounded",
+  "qa": "Tier 1 only. Exclude fill, saturation/terrain occlusion, cloud, dilated cloud, L8/9 cirrus, shadow, snow and reflectance outside [0,1]; retain clear/water and label separately",
+  "replay": "Re-run on each valid-observation prefix after first 60 valid dates; no observations after as_of supplied",
+  "identification": "Spectral changes only; inventory-guided sampling is not independent thaw-slump identification or validation",
+  "timeliness": "Historical observation-time replay; actual catalog publication/processing latency unavailable, so not operational lead-time evidence",
+  "cross_sensor": "TM/ETM+/OLI C2 common-band values; no additional cross-sensor harmonization, sensor transitions may produce apparent changes",
+  "generated_at": "2026-10-17T02:11:34.830106+00:00",
+  "points": [
+    {
+      "key": "rts-1820",
+      "inventory_id": 1820,
+      "coordinates": [
+        92.66035545025998,
+        35.09103570813902
+      ],
+      "name": "RTS 1820 · 扩张区采样像元",
+      "role": "inventory_guided_expansion",
+      "selection": "2022边界减去2016边界后的内部代表点；按清单后验选点，不作盲测",
+      "bounds": [
+        92.65446622863942,
+        35.08414108990511,
+        92.66806856143917,
+        35.098016983709876
+      ],
+      "valid_count": 493,
+      "quality_counts": {
+        "clear": 493,
+        "snow": 55,
+        "cloud": 255,
+        "saturated": 79,
+        "shadow": 48,
+        "nodata": 96,
+        "range": 2
+      },
+      "first_seen_breaks": []
+    },
+    {
+      "key": "rts-1938",
+      "inventory_id": 1938,
+      "coordinates": [
+        92.72564269377199,
+        35.07607472715217
+      ],
+      "name": "RTS 1938 · 扩张区采样像元",
+      "role": "inventory_guided_expansion",
+      "selection": "2022边界减去2016边界后的内部代表点；按清单后验选点，不作盲测",
+      "bounds": [
+        92.71984880307332,
+        35.06988025304429,
+        92.7352949222046,
+        35.08233905912991
+      ],
+      "valid_count": 487,
+      "quality_counts": {
+        "clear": 489,
+        "snow": 43,
+        "cloud": 235,
+        "saturated": 92,
+        "shadow": 48,
+        "nodata": 120,
+        "range": 1
+      },
+      "first_seen_breaks": [
+        {
+          "estimated_change": "2020-09-29",
+          "first_detectable_observation": "2020-11-24",
+          "calendar_days": 56
+        }
+      ]
+    },
+    {
+      "key": "background",
+      "inventory_id": null,
+      "coordinates": [
+        92.675,
+        35.098000000000006
+      ],
+      "name": "邻近背景对照",
+      "role": "unlabelled_background",
+      "selection": "固定候选序列中首个距2016–2022全部清单边界>0.003度的点；不是实地确认阴性",
+      "bounds": [
+        92.66799999999999,
+        35.093,
+        92.682,
+        35.10300000000001
+      ],
+      "valid_count": 526,
+      "quality_counts": {
+        "clear": 526,
+        "snow": 42,
+        "cloud": 240,
+        "saturated": 79,
+        "shadow": 43,
+        "nodata": 97,
+        "range": 1
+      },
+      "first_seen_breaks": []
+    }
+  ]
+}

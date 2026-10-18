@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "url": "http://127.0.0.1:4197/",
+  "sha256": "62c58ada54357c9848571276de2d5cdddeaffb6b3096536381245b9452f4bad9",
+  "checks": [
+    "Actual HTTP preview equals final offline file",
+    "Landing does not promote 56 days as a KPI",
+    "Before first available detection shows no break",
+    "First-detection observation changes actual prefix result",
+    "Top action exports computed terrain and correctly labels automatic summary",
+    "Engineering context shows actual railway separation without a risk probability",
+    "No website pet overlay found in clean browser",
+    "Live walkthrough has no JavaScript errors"
+  ],
+  "errors": [],
+  "automated_route_seconds": 2.136,
+  "human_comprehension_tested": false,
+  "scope": "Automated three-minute route, not a human study. No source feedback screenshots were supplied; external pet origin remains unconfirmed."
+}

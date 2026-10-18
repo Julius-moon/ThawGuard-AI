@@ -1,0 +1,32 @@
+{
+  "name": "thawguard-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173 --open /dev.html",
+    "build": "npm run build:final",
+    "preview": "node serve.mjs",
+    "test:observatory": "node scripts/test_offline_repo.mjs",
+    "test:science": ".venv/Scripts/python.exe scripts/validate_observatory_v7.py",
+    "preview:observatory": "node serve.mjs",
+    "data:experiment": ".venv/Scripts/python.exe scripts/experiment_v7.py",
+    "build:final": "tsc && vite build --config scripts/vite.observatory-v7.config.ts && python scripts/package_observatory_v7.py --out-dir deliverables/ThawGuard-AI --filename index.html --title \"ThawGuard AI · 连续观测与事件证据 V7 终稿\"",
+    "preview:final": "node serve.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/leaflet": "^1.9.18",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "playwright": "^1.59.1"
+  }
+}

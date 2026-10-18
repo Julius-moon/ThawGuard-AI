@@ -1,0 +1,520 @@
+{
+  "created": "2024-04-04T19:23:51.639732+00:00",
+  "modified": "2024-06-11T02:33:29.888645+00:00",
+  "id": 10928346,
+  "conceptrecid": "10917080",
+  "doi": "10.5281/zenodo.10928346",
+  "conceptdoi": "10.5281/zenodo.10917080",
+  "doi_url": "https://doi.org/10.5281/zenodo.10928346",
+  "metadata": {
+    "title": "Annual inventories of retrogressive thaw slumps across the Qinghai-Tibet Plateau from 2016 to 2022",
+    "doi": "10.5281/zenodo.10928346",
+    "publication_date": "2024-04-04",
+    "description": "<p>The dataset is retrogressive thaw slump inventories with annual intervals across the plateau from 2016 to 2022. It contains the boundaries of thaw slumps delineated yearly based on the PlanetScope Scenes with high resolution (3-5 m). The inventories were compiled semi-automatically by combining deep-learning detection and manual delineation. We assigned a unique ID to every RTS in 2022 and the corresponding polygons in previous years. For RTSs merged into one in 2022, we assigned the same ID to make them traceable. We also clustered the RTSs based on the locations. It is the first of this kind to provide annual large-scale thaw slump observations across the QTP and can potentially be a benchmark for monitoring permafrost and evaluating its impact. The vector file in shapefile format contains the boundary of each hot melt collapse. The name of the file is &ldquo;QTP_RTS_YYYY&rdquo;, with the &lsquo;YYYY&rsquo; representing the year of the boundaries. Relevant attribute tables include unique numbers, area (units:&nbsp;m<sup>2</sup>), longitude and latitude, and clusters that RTSs are in, with the corresponding names of the table fields 'id', 'Area', 'Longitude', 'Latitude' and 'Cluster'.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Xia, Zhuoxuan",
+        "affiliation": "Chinese University of Hong Kong",
+        "orcid": "0000-0002-2467-5526"
+      },
+      {
+        "name": "Liu, Lin",
+        "affiliation": "Chinese University of Hong Kong",
+        "orcid": "0000-0002-9581-1337"
+      },
+      {
+        "name": "Mu, Cuicui",
+        "affiliation": "Lanzhou University",
+        "orcid": "0000-0003-0630-9423"
+      },
+      {
+        "name": "Peng, Xiaoqing",
+        "affiliation": "Lanzhou University",
+        "orcid": "0000-0002-2285-5611"
+      },
+      {
+        "name": "Zhao, Zhuoyi",
+        "affiliation": "Chinese University of Hong Kong"
+      },
+      {
+        "name": "Huang, Lingcao",
+        "affiliation": "Chinese University of Hong Kong",
+        "orcid": "0000-0003-3072-7334"
+      },
+      {
+        "name": "Luo, Jing",
+        "affiliation": "State Key Laboratory of Frozen Soil Engineering, Northwest Institute of Eco-Environment and Resources, Chinese Academy of Sciences",
+        "orcid": "0000-0002-9407-390X"
+      },
+      {
+        "name": "Fan, Chengyan",
+        "affiliation": "Lanzhou University",
+        "orcid": "0000-0002-2601-2531"
+      }
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10917080"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Annual inventories of retrogressive thaw slumps across the Qinghai-Tibet Plateau from 2016 to 2022",
+  "links": {
+    "self": "https://zenodo.org/api/records/10928346",
+    "self_html": "https://zenodo.org/records/10928346",
+    "preview_html": "https://zenodo.org/records/10928346?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.10928346",
+    "self_doi": "https://doi.org/10.5281/zenodo.10928346",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10928346",
+    "reserve_doi": "https://zenodo.org/api/records/10928346/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/10917080",
+    "parent_html": "https://zenodo.org/records/10917080",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10917080",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10917080",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10928346/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10928346/sequence/default",
+    "files": "https://zenodo.org/api/records/10928346/files",
+    "media_files": "https://zenodo.org/api/records/10928346/media-files",
+    "latest": "https://zenodo.org/api/records/10928346/versions/latest",
+    "latest_html": "https://zenodo.org/records/10928346/latest",
+    "versions": "https://zenodo.org/api/records/10928346/versions",
+    "draft": "https://zenodo.org/api/records/10928346/draft",
+    "access_links": "https://zenodo.org/api/records/10928346/access/links",
+    "access_grants": "https://zenodo.org/api/records/10928346/access/grants",
+    "access_users": "https://zenodo.org/api/records/10928346/access/users",
+    "access_request": "https://zenodo.org/api/records/10928346/access/request",
+    "access": "https://zenodo.org/api/records/10928346/access",
+    "communities": "https://zenodo.org/api/records/10928346/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10928346/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/10928346/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/10928346/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/10928346/quota-increase",
+    "requests": "https://zenodo.org/api/records/10928346/requests"
+  },
+  "updated": "2024-06-11T02:33:29.888645+00:00",
+  "recid": "10928346",
+  "revision": 16,
+  "files": [
+    {
+      "id": "f96fc5c9-6e45-4f8d-a109-b98ac0b4cccb",
+      "key": "QTP_RTS_2016.dbf",
+      "size": 119914,
+      "checksum": "md5:2338a43e157072cde96414cdaeee4018",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2016.dbf/content"
+      }
+    },
+    {
+      "id": "6572a542-3baf-4e5b-8f4c-4ed0c2cdaa5a",
+      "key": "QTP_RTS_2019.qmd",
+      "size": 686,
+      "checksum": "md5:e2f1528ec807c08146d701d60665fa6f",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2019.qmd/content"
+      }
+    },
+    {
+      "id": "95861225-8cc2-4cba-ab66-ace779c97965",
+      "key": "QTP_RTS_2017.shp",
+      "size": 4763612,
+      "checksum": "md5:0ba2d5026450468fa74ea5f749a40882",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2017.shp/content"
+      }
+    },
+    {
+      "id": "bc2d2d3a-48da-42ad-8d5c-c971a42f9944",
+      "key": "QTP_RTS_2019.dbf",
+      "size": 271316,
+      "checksum": "md5:b2ad56335837c90bfc9d0bad6e75a858",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2019.dbf/content"
+      }
+    },
+    {
+      "id": "e3d0f26b-3cb9-42ef-a11f-4768d54ae27e",
+      "key": "QTP_RTS_2019.shx",
+      "size": 29812,
+      "checksum": "md5:650e9286204aae33dda2118e70d13865",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2019.shx/content"
+      }
+    },
+    {
+      "id": "5711c8a5-c553-4f4b-83aa-d1271566b294",
+      "key": "QTP_RTS_2017.shx",
+      "size": 23084,
+      "checksum": "md5:c6271c6bcd3dd61cb835b2dc815db96d",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2017.shx/content"
+      }
+    },
+    {
+      "id": "796746f7-bfa5-48e1-8804-f6bbd12f0a24",
+      "key": "QTP_RTS_2017.qmd",
+      "size": 1071,
+      "checksum": "md5:0075e2469f39ec1ac103df11b2b27d7e",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2017.qmd/content"
+      }
+    },
+    {
+      "id": "821bfbb2-3a39-470b-ba3e-8b093121387f",
+      "key": "QTP_RTS_2016.cpg",
+      "size": 5,
+      "checksum": "md5:ae3b3df9970b49b6523e608759bc957d",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2016.cpg/content"
+      }
+    },
+    {
+      "id": "db392192-12b5-408c-97fa-435ccfd21671",
+      "key": "QTP_RTS_2021.prj",
+      "size": 412,
+      "checksum": "md5:cbe36c1d0d14ef5a8340bfb1a47a3331",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2021.prj/content"
+      }
+    },
+    {
+      "id": "b41e5625-3286-4cbf-b1ae-561ef0fb9990",
+      "key": "QTP_RTS_2021.shx",
+      "size": 30500,
+      "checksum": "md5:a10b10633abd62591701be2bd2a38409",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2021.shx/content"
+      }
+    },
+    {
+      "id": "85659387-f9cb-4122-ae1a-e0bf8a5a7d85",
+      "key": "QTP_RTS_2017.dbf",
+      "size": 209923,
+      "checksum": "md5:6ee6b86622651f411f11012556c452a8",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2017.dbf/content"
+      }
+    },
+    {
+      "id": "209eb3f2-5f0d-4488-bdef-565944974542",
+      "key": "QTP_RTS_2021.dbf",
+      "size": 277594,
+      "checksum": "md5:1e8a56ff233793b6d3ddc9727aa7a4d5",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2021.dbf/content"
+      }
+    },
+    {
+      "id": "c2602f92-49be-48b4-b8fc-317b69a53b61",
+      "key": "QTP_RTS_2022.qmd",
+      "size": 686,
+      "checksum": "md5:e2f1528ec807c08146d701d60665fa6f",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2022.qmd/content"
+      }
+    },
+    {
+      "id": "8b010925-4784-49a5-8385-ff18c73a3b52",
+      "key": "QTP_RTS_2021.cpg",
+      "size": 5,
+      "checksum": "md5:ae3b3df9970b49b6523e608759bc957d",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2021.cpg/content"
+      }
+    },
+    {
+      "id": "acfef665-b347-4da1-85bc-87ce9c1409b3",
+      "key": "QTP_RTS_2020.dbf",
+      "size": 274382,
+      "checksum": "md5:3e97ffb44dddb2eb9c73dda5748adbd1",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2020.dbf/content"
+      }
+    },
+    {
+      "id": "a6422e19-e83d-4b6c-bcb7-f483b84c2d21",
+      "key": "QTP_RTS_2020.qmd",
+      "size": 686,
+      "checksum": "md5:e2f1528ec807c08146d701d60665fa6f",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2020.qmd/content"
+      }
+    },
+    {
+      "id": "6c939139-5078-49c0-a934-f0a623844417",
+      "key": "QTP_RTS_2016.xsd",
+      "size": 2448,
+      "checksum": "md5:e5e1b1de7629d982f0fe52267425f248",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2016.xsd/content"
+      }
+    },
+    {
+      "id": "0524f690-20f4-4d69-8683-2fba4ae951d6",
+      "key": "QTP_RTS_2021.shp",
+      "size": 7910676,
+      "checksum": "md5:5c71f84c9871135f104dbc533257979e",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2021.shp/content"
+      }
+    },
+    {
+      "id": "ecea2fb7-7e2d-4954-bfad-bb45a9e278a5",
+      "key": "QTP_RTS_2020.prj",
+      "size": 412,
+      "checksum": "md5:cbe36c1d0d14ef5a8340bfb1a47a3331",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2020.prj/content"
+      }
+    },
+    {
+      "id": "825de0a9-5651-421b-a6eb-a1b327bf17d8",
+      "key": "QTP_RTS_2018.dbf",
+      "size": 221822,
+      "checksum": "md5:85a0d2866db1a7de3525084bb2ded2c2",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2018.dbf/content"
+      }
+    },
+    {
+      "id": "55f2efe3-7d1d-4276-88f6-2607399c121f",
+      "key": "QTP_RTS_2018.shx",
+      "size": 24388,
+      "checksum": "md5:0f5dce3ded2aa38d2db579a81e3716ee",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2018.shx/content"
+      }
+    },
+    {
+      "id": "b5cc79dd-c01f-4a71-84ba-abd8230ff82c",
+      "key": "QTP_RTS_2020.shx",
+      "size": 30148,
+      "checksum": "md5:a67bee62b1f40afcdfca498ff724893a",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2020.shx/content"
+      }
+    },
+    {
+      "id": "90993d12-3944-4308-bf3b-a6f4320315a1",
+      "key": "QTP_RTS_2017.cpg",
+      "size": 5,
+      "checksum": "md5:ae3b3df9970b49b6523e608759bc957d",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2017.cpg/content"
+      }
+    },
+    {
+      "id": "ec3bcde6-c965-4f80-86a9-88944a4a76f4",
+      "key": "QTP_RTS_2022.dbf",
+      "size": 277959,
+      "checksum": "md5:e01cb7feabb9ff460681b4177923f530",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2022.dbf/content"
+      }
+    },
+    {
+      "id": "ab79e49a-a295-4b9b-a983-d625746f770a",
+      "key": "QTP_RTS_2018.qmd",
+      "size": 686,
+      "checksum": "md5:e2f1528ec807c08146d701d60665fa6f",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2018.qmd/content"
+      }
+    },
+    {
+      "id": "8c5e8acb-1a6b-4b41-aa3e-d264f588700a",
+      "key": "QTP_RTS_2016.shp",
+      "size": 2705444,
+      "checksum": "md5:a0ac8da55b5dd7243af103ff8bec30be",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2016.shp/content"
+      }
+    },
+    {
+      "id": "0fd3a4df-3ea1-4420-8db1-f6609b873bf2",
+      "key": "QTP_RTS_2018.prj",
+      "size": 412,
+      "checksum": "md5:cbe36c1d0d14ef5a8340bfb1a47a3331",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2018.prj/content"
+      }
+    },
+    {
+      "id": "fc06457a-7349-49bf-8e27-c975aa9a70ba",
+      "key": "QTP_RTS_2019.prj",
+      "size": 412,
+      "checksum": "md5:cbe36c1d0d14ef5a8340bfb1a47a3331",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2019.prj/content"
+      }
+    },
+    {
+      "id": "6209326b-154f-4616-8bdf-d6e54c56980f",
+      "key": "QTP_RTS_2018.shp",
+      "size": 5236996,
+      "checksum": "md5:d2099a674658a0fcb57ce08d5357a046",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2018.shp/content"
+      }
+    },
+    {
+      "id": "ef4757e5-ff0f-4a3f-834c-65dc1ebf839b",
+      "key": "QTP_RTS_2022.prj",
+      "size": 412,
+      "checksum": "md5:cbe36c1d0d14ef5a8340bfb1a47a3331",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2022.prj/content"
+      }
+    },
+    {
+      "id": "22de8855-ff0f-4508-8584-0b7b3f4d3f24",
+      "key": "QTP_RTS_2021.qmd",
+      "size": 686,
+      "checksum": "md5:e2f1528ec807c08146d701d60665fa6f",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2021.qmd/content"
+      }
+    },
+    {
+      "id": "48116b5b-a7eb-4ab2-a717-35a45222d4b1",
+      "key": "QTP_RTS_2022.cpg",
+      "size": 5,
+      "checksum": "md5:ae3b3df9970b49b6523e608759bc957d",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2022.cpg/content"
+      }
+    },
+    {
+      "id": "ac74f8b6-721e-4ca4-a17e-3b2a533d976a",
+      "key": "QTP_RTS_2016.shx",
+      "size": 13220,
+      "checksum": "md5:fdbfec2c49a76cd381f0e5407ffc648d",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2016.shx/content"
+      }
+    },
+    {
+      "id": "3b96acb0-b68e-4e66-879c-03c8bf8b7510",
+      "key": "QTP_RTS_2016.prj",
+      "size": 412,
+      "checksum": "md5:cbe36c1d0d14ef5a8340bfb1a47a3331",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2016.prj/content"
+      }
+    },
+    {
+      "id": "f82a7d5f-7ab3-4b57-aaef-299c129c36b3",
+      "key": "QTP_RTS_2017.prj",
+      "size": 412,
+      "checksum": "md5:cbe36c1d0d14ef5a8340bfb1a47a3331",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2017.prj/content"
+      }
+    },
+    {
+      "id": "596a503a-ecf1-4183-8baa-eb8053ba61a2",
+      "key": "QTP_RTS_2022.shp",
+      "size": 7864332,
+      "checksum": "md5:01a6cbcec4b58862233aef846d0268bf",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2022.shp/content"
+      }
+    },
+    {
+      "id": "029dd763-cd1a-48d2-a2cc-80729fa99f3a",
+      "key": "QTP_RTS_2022.shx",
+      "size": 30540,
+      "checksum": "md5:03177a3a28f29d574aff307b47fade47",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2022.shx/content"
+      }
+    },
+    {
+      "id": "cfc9d197-1b26-427e-a846-d4b85008f4a3",
+      "key": "QTP_RTS_2020.shp",
+      "size": 7563060,
+      "checksum": "md5:1782b6ce59df09478ea86158867646f3",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2020.shp/content"
+      }
+    },
+    {
+      "id": "ae15fcc3-dac3-4d29-a091-aae74e686a9d",
+      "key": "QTP_RTS_2016.qmd",
+      "size": 1071,
+      "checksum": "md5:0075e2469f39ec1ac103df11b2b27d7e",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2016.qmd/content"
+      }
+    },
+    {
+      "id": "07592855-8dc1-442b-96d6-9ffb4da02548",
+      "key": "QTP_RTS_2018.cpg",
+      "size": 5,
+      "checksum": "md5:ae3b3df9970b49b6523e608759bc957d",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2018.cpg/content"
+      }
+    },
+    {
+      "id": "534bb000-a414-4a7f-8324-2efc312db8ab",
+      "key": "QTP_RTS_2019.shp",
+      "size": 6503188,
+      "checksum": "md5:ea6c14b1c7262964e9ea451c046d063a",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2019.shp/content"
+      }
+    },
+    {
+      "id": "f8e7daf3-97d8-44f5-8df7-8e61db654d9d",
+      "key": "QTP_RTS_2019.cpg",
+      "size": 5,
+      "checksum": "md5:ae3b3df9970b49b6523e608759bc957d",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2019.cpg/content"
+      }
+    },
+    {
+      "id": "cb5b1dc5-d179-4961-acd0-3e926c5b7a2b",
+      "key": "QTP_RTS_2020.cpg",
+      "size": 5,
+      "checksum": "md5:ae3b3df9970b49b6523e608759bc957d",
+      "links": {
+        "self": "https://zenodo.org/api/records/10928346/files/QTP_RTS_2020.cpg/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "328935"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 10732,
+    "unique_downloads": 9702,
+    "views": 945,
+    "unique_views": 831,
+    "version_downloads": 10690,
+    "version_unique_downloads": 9660,
+    "version_unique_views": 714,
+    "version_views": 814
+  },
+  "state": "done",
+  "submitted": true
+}

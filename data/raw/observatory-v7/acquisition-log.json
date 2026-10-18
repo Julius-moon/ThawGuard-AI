@@ -1,0 +1,26 @@
+{
+  "cover2021": {
+    "status": "ok",
+    "result": "D:\\STeven\\桌面\\medium station\\竞赛\\AI4climate\\ThawGuard\\data\\raw\\observatory-v7\\worldcover-2021-native.tif"
+  },
+  "climate": {
+    "status": "ok",
+    "result": "cached climate"
+  },
+  "s2_metadata": {
+    "status": "ok",
+    "result": "3 existing Sentinel metadata retained"
+  },
+  "osm": {
+    "status": "ok",
+    "result": 112
+  },
+  "cover2020": {
+    "status": "ok",
+    "result": "D:\\STeven\\桌面\\medium station\\竞赛\\AI4climate\\ThawGuard\\data\\raw\\observatory-v7\\worldcover-2020-native.tif"
+  },
+  "dem": {
+    "status": "ok",
+    "result": "D:\\STeven\\桌面\\medium station\\竞赛\\AI4climate\\ThawGuard\\data\\raw\\observatory-v7\\cop-dem-glo30-native.tif"
+  }
+}

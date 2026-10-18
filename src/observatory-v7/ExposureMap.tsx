@@ -1,0 +1,11 @@
+import {useEffect,useRef} from 'react';import L from 'leaflet';import {type Data} from './types';
+export default function ExposureMap({data,kind}:{data:Data;kind:string}){const host=useRef<HTMLDivElement>(null),map=useRef<L.Map|null>(null),group=useRef<L.LayerGroup|null>(null);
+ useEffect(()=>{if(!host.current)return;const m=L.map(host.current,{scrollWheelZoom:false,zoomAnimation:false,fadeAnimation:false,markerZoomAnimation:false}).setView([35.07,92.8],10);map.current=m;group.current=L.layerGroup().addTo(m);L.control.scale({imperial:false}).addTo(m);m.attributionControl.addAttribution('© OpenStreetMap contributors · ODbL | 测距 EPSG:32646');const r=new ResizeObserver(()=>m.invalidateSize());r.observe(host.current);return()=>{r.disconnect();m.stop();m.remove()}},[]);
+ useEffect(()=>{const m=map.current,g=group.current;if(!m||!g)return;g.clearLayers();const colors:Record<string,string>={'道路':'#b49365','铁路':'#276c72','水系':'#4b8db5'};const all=data.infrastructure.features;
+ L.geoJSON({type:'FeatureCollection',features:all} as any,{style:(f:any)=>({color:colors[f.properties.kind],weight:f.properties.kind===kind?3:1.2,opacity:f.properties.kind===kind?.9:.4}),onEachFeature:(f,l)=>l.bindTooltip(()=>{const el=document.createElement('span');el.textContent=`${f.properties.name} · OSM way ${f.properties.osm_id} · 距边界 ${(f.properties.distance_to_boundary_m/1000).toFixed(2)} km`;return el})}).addTo(g);
+ const polys=data.layers[2022].features.filter((f:any)=>f.properties.id===1938);const sl=L.geoJSON({type:'FeatureCollection',features:polys} as any,{style:{color:'#c08046',weight:2,fillOpacity:.55}}).bindTooltip('RTS 1938 · 原2022清单边界').addTo(g);
+ const nearest=data.context.infrastructure.categories.find((c:any)=>c.kind===kind)?.nearest;
+ if(nearest){const connector=L.geoJSON(nearest.nearest_connector,{style:{color:'#b66d3a',weight:2,dashArray:'5 5'}}).bindTooltip('几何最短距离线；不是运移或影响路径').addTo(g);m.fitBounds(sl.getBounds().extend(connector.getBounds()),{padding:[35,35],maxZoom:12,animate:false})}else m.setView([35.076,92.726],10);
+ },[data,kind]);
+ return <div className="exposure-map-wrap"><div ref={host} className="exposure-map" aria-label="真实OSM设施与RTS1938边界空间关系"/><div className="vector-map-note">北向上 · 显示公开矢量记录<br/>橙色虚线为几何间距，不是灾害路径</div></div>
+}

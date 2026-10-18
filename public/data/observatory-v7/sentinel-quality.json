@@ -1,0 +1,87 @@
+[
+  {
+    "source_id": "sentinel2-l2a-S2A_MSIL2A_20210911T043701_R033_T46SDD_20210911T171914",
+    "method_id": "native-scl20-fixed-2022-mask-v1",
+    "item": "S2A_MSIL2A_20210911T043701_R033_T46SDD_20210911T171914",
+    "observation_date": "2021-09-11",
+    "resolution": "RGB 10 m native; SCL 20 m native; 2022 polygon fixed-mask context",
+    "processing_baseline": "03.00",
+    "scene_cloud_pct": 2.451626,
+    "roi_scl_counts": {
+      "5": 460
+    },
+    "roi_clear_land_water_pct": 100.0,
+    "roi_cells": 460,
+    "scl_mask_path": "data/raw/observatory-v7/S2A_MSIL2A_20210911T043701_R033_T46SDD_20210911T171914-SCL.tif",
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2A_MSIL2A_20210911T043701_R033_T46SDD_20210911T171914",
+    "limitations": "SCL is a modelled 20m quality classification, not independent field truth; ROI quality differs from scene cloud percentage. Post-hoc fixed polygon statistics do not enter Landsat S-CCD."
+  },
+  {
+    "source_id": "sentinel2-l2a-S2B_MSIL2A_20190815T042709_R133_T46SDD_20201005T004432",
+    "method_id": "native-scl20-fixed-2022-mask-v1",
+    "item": "S2B_MSIL2A_20190815T042709_R133_T46SDD_20201005T004432",
+    "observation_date": "2019-08-15",
+    "resolution": "RGB 10 m native; SCL 20 m native; 2022 polygon fixed-mask context",
+    "processing_baseline": "02.12",
+    "scene_cloud_pct": 0.045145,
+    "roi_scl_counts": {
+      "5": 460
+    },
+    "roi_clear_land_water_pct": 100.0,
+    "roi_cells": 460,
+    "scl_mask_path": "data/raw/observatory-v7/S2B_MSIL2A_20190815T042709_R133_T46SDD_20201005T004432-SCL.tif",
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20190815T042709_R133_T46SDD_20201005T004432",
+    "limitations": "SCL is a modelled 20m quality classification, not independent field truth; ROI quality differs from scene cloud percentage. Post-hoc fixed polygon statistics do not enter Landsat S-CCD."
+  },
+  {
+    "source_id": "sentinel2-l2a-S2B_MSIL2A_20200819T042709_R133_T46SDD_20200919T125458",
+    "method_id": "native-scl20-fixed-2022-mask-v1",
+    "item": "S2B_MSIL2A_20200819T042709_R133_T46SDD_20200919T125458",
+    "observation_date": "2020-08-19",
+    "resolution": "RGB 10 m native; SCL 20 m native; 2022 polygon fixed-mask context",
+    "processing_baseline": "02.12",
+    "scene_cloud_pct": 0.117648,
+    "roi_scl_counts": {
+      "5": 460
+    },
+    "roi_clear_land_water_pct": 100.0,
+    "roi_cells": 460,
+    "scl_mask_path": "data/raw/observatory-v7/S2B_MSIL2A_20200819T042709_R133_T46SDD_20200919T125458-SCL.tif",
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20200819T042709_R133_T46SDD_20200919T125458",
+    "limitations": "SCL is a modelled 20m quality classification, not independent field truth; ROI quality differs from scene cloud percentage. Post-hoc fixed polygon statistics do not enter Landsat S-CCD."
+  },
+  {
+    "source_id": "sentinel2-l2a-S2B_MSIL2A_20200921T043659_R033_T46SDD_20200924T114228",
+    "method_id": "native-scl20-fixed-2022-mask-v1",
+    "item": "S2B_MSIL2A_20200921T043659_R033_T46SDD_20200924T114228",
+    "observation_date": "2020-09-21",
+    "resolution": "RGB 10 m native; SCL 20 m native; 2022 polygon fixed-mask context",
+    "processing_baseline": "02.12",
+    "scene_cloud_pct": 16.761675,
+    "roi_scl_counts": {
+      "5": 460
+    },
+    "roi_clear_land_water_pct": 100.0,
+    "roi_cells": 460,
+    "scl_mask_path": "data/raw/observatory-v7/S2B_MSIL2A_20200921T043659_R033_T46SDD_20200924T114228-SCL.tif",
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20200921T043659_R033_T46SDD_20200924T114228",
+    "limitations": "SCL is a modelled 20m quality classification, not independent field truth; ROI quality differs from scene cloud percentage. Post-hoc fixed polygon statistics do not enter Landsat S-CCD."
+  },
+  {
+    "source_id": "sentinel2-l2a-S2B_MSIL2A_20201001T043709_R033_T46SDD_20201004T163025",
+    "method_id": "native-scl20-fixed-2022-mask-v1",
+    "item": "S2B_MSIL2A_20201001T043709_R033_T46SDD_20201004T163025",
+    "observation_date": "2020-10-01",
+    "resolution": "RGB 10 m native; SCL 20 m native; 2022 polygon fixed-mask context",
+    "processing_baseline": "02.12",
+    "scene_cloud_pct": 0.146625,
+    "roi_scl_counts": {
+      "5": 460
+    },
+    "roi_clear_land_water_pct": 100.0,
+    "roi_cells": 460,
+    "scl_mask_path": "data/raw/observatory-v7/S2B_MSIL2A_20201001T043709_R033_T46SDD_20201004T163025-SCL.tif",
+    "source_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20201001T043709_R033_T46SDD_20201004T163025",
+    "limitations": "SCL is a modelled 20m quality classification, not independent field truth; ROI quality differs from scene cloud percentage. Post-hoc fixed polygon statistics do not enter Landsat S-CCD."
+  }
+]

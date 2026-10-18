@@ -1,0 +1,102 @@
+{
+  "roi": [
+    92.65,
+    34.9,
+    93.15,
+    35.25
+  ],
+  "roi_description": "北麓河西北部研究窗，按经纬度矩形筛选相交边界，非官方流域边界",
+  "crs_original": "PROJCRS[\"unnamed\",BASEGEOGCRS[\"WGS 84\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Albers Equal Area\",ID[\"EPSG\",9822]],PARAMETER[\"Latitude of false origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",90,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",27.5,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",37.5,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]",
+  "years": [
+    {
+      "year": 2016,
+      "polygon_count": 198,
+      "unique_ids": 187,
+      "area_ha": 308.354,
+      "data_source": "10.5281/zenodo.10928346",
+      "observed_period": "2016",
+      "measurement_type": "polygon_count; unique ID count; original equal-area area",
+      "confidence": "published inventory; independently checked geometry, not field validated",
+      "limitations": "ROI intersection subset; counts are not new-event incidence"
+    },
+    {
+      "year": 2017,
+      "polygon_count": 434,
+      "unique_ids": 398,
+      "area_ha": 712.087,
+      "data_source": "10.5281/zenodo.10928346",
+      "observed_period": "2017",
+      "measurement_type": "polygon_count; unique ID count; original equal-area area",
+      "confidence": "published inventory; independently checked geometry, not field validated",
+      "limitations": "ROI intersection subset; counts are not new-event incidence"
+    },
+    {
+      "year": 2018,
+      "polygon_count": 444,
+      "unique_ids": 413,
+      "area_ha": 839.006,
+      "data_source": "10.5281/zenodo.10928346",
+      "observed_period": "2018",
+      "measurement_type": "polygon_count; unique ID count; original equal-area area",
+      "confidence": "published inventory; independently checked geometry, not field validated",
+      "limitations": "ROI intersection subset; counts are not new-event incidence"
+    },
+    {
+      "year": 2019,
+      "polygon_count": 459,
+      "unique_ids": 437,
+      "area_ha": 1004.836,
+      "data_source": "10.5281/zenodo.10928346",
+      "observed_period": "2019",
+      "measurement_type": "polygon_count; unique ID count; original equal-area area",
+      "confidence": "published inventory; independently checked geometry, not field validated",
+      "limitations": "ROI intersection subset; counts are not new-event incidence"
+    },
+    {
+      "year": 2020,
+      "polygon_count": 442,
+      "unique_ids": 437,
+      "area_ha": 1159.549,
+      "data_source": "10.5281/zenodo.10928346",
+      "observed_period": "2020",
+      "measurement_type": "polygon_count; unique ID count; original equal-area area",
+      "confidence": "published inventory; independently checked geometry, not field validated",
+      "limitations": "ROI intersection subset; counts are not new-event incidence"
+    },
+    {
+      "year": 2021,
+      "polygon_count": 437,
+      "unique_ids": 437,
+      "area_ha": 1214.016,
+      "data_source": "10.5281/zenodo.10928346",
+      "observed_period": "2021",
+      "measurement_type": "polygon_count; unique ID count; original equal-area area",
+      "confidence": "published inventory; independently checked geometry, not field validated",
+      "limitations": "ROI intersection subset; counts are not new-event incidence"
+    },
+    {
+      "year": 2022,
+      "polygon_count": 437,
+      "unique_ids": 437,
+      "area_ha": 1262.483,
+      "data_source": "10.5281/zenodo.10928346",
+      "observed_period": "2022",
+      "measurement_type": "polygon_count; unique ID count; original equal-area area",
+      "confidence": "published inventory; independently checked geometry, not field validated",
+      "limitations": "ROI intersection subset; counts are not new-event incidence"
+    }
+  ],
+  "case_ids": [
+    1820,
+    1938,
+    1875
+  ],
+  "site_count_2022": 437,
+  "source": "https://zenodo.org/records/10928346",
+  "doi": "10.5281/zenodo.10928346",
+  "authors": "Xia, Liu, Mu, Peng, Zhao, Huang, Luo & Fan (2024)",
+  "license": "CC-BY-4.0",
+  "processing": "Original equal-area polygon area in m² → ha; WGS84 transform; adaptive 1.2e-5 degree display simplification (original retained if area discrepancy >1%); full polygons intersect ROI retained; ID-year aggregation",
+  "limitations": "区域子集；边界记录数与独立滑塌事件数不可混同；无实地复核、NDVI、实时预报、定量损失。",
+  "download_date": "2026-10-15"
+}

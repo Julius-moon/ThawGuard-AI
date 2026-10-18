@@ -1,0 +1,8 @@
+{
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:50];(way(around:25000,35.07607472715217,92.72564269377199)[highway];way(around:25000,35.07607472715217,92.72564269377199)[railway];way(around:25000,35.07607472715217,92.72564269377199)[waterway];);out meta geom;",
+  "download_utc": "2026-10-18T05:35:02.779887+00:00",
+  "license": "ODbL-1.0",
+  "copyright": "© OpenStreetMap contributors",
+  "data_osm_base": "2026-10-18T05:34:06Z"
+}

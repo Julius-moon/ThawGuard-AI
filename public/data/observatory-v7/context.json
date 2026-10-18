@@ -1,0 +1,584 @@
+{
+  "schema": "thawguard-public-context-v7",
+  "case_key": "rts-1938",
+  "terrain": {
+    "source_id": "cop-dem-glo30-aws-2022",
+    "method_id": "utm30-bilinear-central-gradient-v1",
+    "observation_date": "2010–2015 acquisition; AWS object 2022-05-09",
+    "resolution": "nominal 30 m DSM; native 1 arc-second; computation grid 30 m",
+    "crs": "EPSG:32646",
+    "vertical_datum": "EGM2008 orthometric heights (m)",
+    "geometry_reference": "original inventory ID 1938 / 2022 polygon",
+    "n_cells": 205,
+    "elevation_median_m": 4828.49,
+    "slope_median_deg": 4.818,
+    "slope_p90_deg": 8.651,
+    "aspect_circular_mean_deg": 94.22,
+    "aspect_concentration": 0.9613,
+    "aspect_n_cells": 205,
+    "local_relief_p95_p05_m": 75.51,
+    "local_relief_scope": "2022 polygon buffered by 250 m",
+    "sampling_buffer22m_mean_elevation_m": 4842.62,
+    "comparison_mapzen": {
+      "elevation_median_m": 4831.0,
+      "slope_median_deg": 5.68,
+      "steepest_cell_aspect_deg": 94.7,
+      "elevation_delta_m": -2.51,
+      "note": "Different vertical datum/source, grid and sampling; old steepest-cell aspect is not the new circular mean."
+    },
+    "limitations": "Static edited radar DSM, not current field survey or bare-earth DTM. Resampling creates no extra spatial detail. Flat cells below 1 degree excluded from aspect mean. No DEM differencing or erosion volume."
+  },
+  "landcover": {
+    "2020": {
+      "source_id": "worldcover-2020",
+      "method_id": "utm10-nearest-fixed-2022-mask-v1",
+      "observation_date": "2020",
+      "resolution": "nominal 10 m; native 0.3 arc-second; reporting grid 10 m",
+      "reference": "fixed original 2022 polygon (post-hoc context)",
+      "valid_cells": 1825,
+      "masked_cells": 1825,
+      "classified_area_ha": 18.25,
+      "classes": [
+        {
+          "code": 30,
+          "name": "草地",
+          "color": "#c4c663",
+          "count": 562,
+          "area_ha": 5.62,
+          "percent": 30.795
+        },
+        {
+          "code": 60,
+          "name": "裸地／稀疏植被",
+          "color": "#a99d88",
+          "count": 1263,
+          "area_ha": 12.63,
+          "percent": 69.205
+        }
+      ],
+      "limitations": "Pixel-center raster area estimate, not original vector area. 2020 v100 and 2021 v200 use different algorithm versions. Class differences are not attributed to thaw slump or carbon loss."
+    },
+    "2021": {
+      "source_id": "worldcover-2021",
+      "method_id": "utm10-nearest-fixed-2022-mask-v1",
+      "observation_date": "2021",
+      "resolution": "nominal 10 m; native 0.3 arc-second; reporting grid 10 m",
+      "reference": "fixed original 2022 polygon (post-hoc context)",
+      "valid_cells": 1825,
+      "masked_cells": 1825,
+      "classified_area_ha": 18.25,
+      "classes": [
+        {
+          "code": 30,
+          "name": "草地",
+          "color": "#c4c663",
+          "count": 462,
+          "area_ha": 4.62,
+          "percent": 25.315
+        },
+        {
+          "code": 60,
+          "name": "裸地／稀疏植被",
+          "color": "#a99d88",
+          "count": 1360,
+          "area_ha": 13.6,
+          "percent": 74.521
+        },
+        {
+          "code": 100,
+          "name": "苔藓与地衣",
+          "color": "#d7cda3",
+          "count": 3,
+          "area_ha": 0.03,
+          "percent": 0.164
+        }
+      ],
+      "limitations": "Pixel-center raster area estimate, not original vector area. 2020 v100 and 2021 v200 use different algorithm versions. Class differences are not attributed to thaw slump or carbon loss."
+    }
+  },
+  "infrastructure": {
+    "source_id": "osm-beiluhe-20261018",
+    "method_id": "utm46-polygon-to-way-distance-v1",
+    "observation_date": "2026-10-18T05:34:06Z",
+    "resolution": "vector; variable mapping detail",
+    "query_radius_m": 25000,
+    "query_center": [
+      92.72564269377199,
+      35.07607472715217
+    ],
+    "counts_basis": "unique OSM way records intersecting radius from sampling point; not unique roads/facilities",
+    "categories": [
+      {
+        "kind": "道路",
+        "way_records_25km": 91,
+        "nearest": {
+          "osm_id": 1103993021,
+          "osm_version": 1,
+          "osm_timestamp": "2022-10-15T03:58:06Z",
+          "kind": "道路",
+          "name": "path",
+          "tags": {
+            "highway": "path"
+          },
+          "distance_to_boundary_m": 9767.32,
+          "nearest_connector": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                92.7292013564812,
+                35.07814044861388
+              ],
+              [
+                92.7875258,
+                35.1520342
+              ]
+            ]
+          },
+          "source_id": "osm-beiluhe-20261018",
+          "method_id": "utm46-polygon-to-way-distance-v1",
+          "observation_date": "2026-10-18T05:34:06Z",
+          "resolution": "OSM vector; positional precision and completeness not guaranteed",
+          "limitations": "OSM way records are not counts of independent facilities. Geometric separation is not a failure probability or runout path."
+        }
+      },
+      {
+        "kind": "铁路",
+        "way_records_25km": 9,
+        "nearest": {
+          "osm_id": 258270162,
+          "osm_version": 8,
+          "osm_timestamp": "2026-08-08T05:29:34Z",
+          "kind": "铁路",
+          "name": "青藏线",
+          "tags": {
+            "bridge": "yes",
+            "electrified": "no",
+            "gauge": "1435",
+            "layer": "1",
+            "maxspeed": "100",
+            "name": "青藏线",
+            "name:de": "Lhasa-Bahn",
+            "name:en": "Qingzang Line",
+            "name:zh": "青藏线",
+            "official_name": "青藏线",
+            "operator": "中国铁路青藏集团有限公司",
+            "railway": "rail",
+            "ref": "0907",
+            "start_date": "2006-07-01",
+            "usage": "main"
+          },
+          "distance_to_boundary_m": 24228.15,
+          "nearest_connector": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                92.7308498237646,
+                35.0739596972507
+              ],
+              [
+                92.9495803,
+                34.950077799999995
+              ]
+            ]
+          },
+          "source_id": "osm-beiluhe-20261018",
+          "method_id": "utm46-polygon-to-way-distance-v1",
+          "observation_date": "2026-10-18T05:34:06Z",
+          "resolution": "OSM vector; positional precision and completeness not guaranteed",
+          "limitations": "OSM way records are not counts of independent facilities. Geometric separation is not a failure probability or runout path."
+        }
+      },
+      {
+        "kind": "水系",
+        "way_records_25km": 9,
+        "nearest": {
+          "osm_id": 1554653607,
+          "osm_version": 1,
+          "osm_timestamp": "2026-09-03T00:58:34Z",
+          "kind": "水系",
+          "name": "river",
+          "tags": {
+            "intermittent": "yes",
+            "waterway": "river"
+          },
+          "distance_to_boundary_m": 5300.42,
+          "nearest_connector": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                92.73128871916586,
+                35.07636192117048
+              ],
+              [
+                92.7860177,
+                35.09250339999999
+              ]
+            ]
+          },
+          "source_id": "osm-beiluhe-20261018",
+          "method_id": "utm46-polygon-to-way-distance-v1",
+          "observation_date": "2026-10-18T05:34:06Z",
+          "resolution": "OSM vector; positional precision and completeness not guaranteed",
+          "limitations": "OSM way records are not counts of independent facilities. Geometric separation is not a failure probability or runout path."
+        }
+      }
+    ],
+    "g109_nearest": {
+      "osm_id": 258270118,
+      "osm_version": 3,
+      "osm_timestamp": "2016-01-16T23:48:53Z",
+      "kind": "道路",
+      "name": "青藏公路",
+      "tags": {
+        "highway": "trunk",
+        "int_ref": "AH42",
+        "name": "青藏公路",
+        "name:en": "Qinghai-Tibet Highway",
+        "ref": "G109",
+        "source": "landsat"
+      },
+      "distance_to_boundary_m": 24074.7,
+      "nearest_connector": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            92.7308498237646,
+            35.0739596972507
+          ],
+          [
+            92.9533312,
+            34.95722620000001
+          ]
+        ]
+      },
+      "source_id": "osm-beiluhe-20261018",
+      "method_id": "utm46-polygon-to-way-distance-v1",
+      "observation_date": "2026-10-18T05:34:06Z",
+      "resolution": "OSM vector; positional precision and completeness not guaranteed",
+      "limitations": "OSM way records are not counts of independent facilities. Geometric separation is not a failure probability or runout path."
+    },
+    "limitations": "Current OSM snapshot is post-hoc spatial context, not a historical 2020 facility survey. Missing OSM records do not imply no infrastructure. Euclidean distances do not establish exposure by flow paths or engineering risk."
+  },
+  "climate": {
+    "source_id": "openmeteo-era5land-native-temperature+era5-precipitation",
+    "method_id": "complete-daily-to-calendar-month-v1",
+    "observation_date": "2019-01-01/2021-12-31",
+    "resolution": "ERA5-Land temperature 0.1 degree; ERA5 precipitation 0.25 degree; elevation downscaling disabled",
+    "grid_coordinates": [
+      92.70001,
+      35.1
+    ],
+    "precipitation_grid_coordinates": [
+      92.75,
+      35.0
+    ],
+    "api_elevation_m": null,
+    "months": [
+      {
+        "month": "2019-01",
+        "days": 31,
+        "temperature_c": -19.78,
+        "precipitation_mm": 3.7
+      },
+      {
+        "month": "2019-02",
+        "days": 28,
+        "temperature_c": -14.63,
+        "precipitation_mm": 3.1
+      },
+      {
+        "month": "2019-03",
+        "days": 31,
+        "temperature_c": -15.71,
+        "precipitation_mm": 13.6
+      },
+      {
+        "month": "2019-04",
+        "days": 30,
+        "temperature_c": -9.62,
+        "precipitation_mm": 23.5
+      },
+      {
+        "month": "2019-05",
+        "days": 31,
+        "temperature_c": -4.54,
+        "precipitation_mm": 64.2
+      },
+      {
+        "month": "2019-06",
+        "days": 30,
+        "temperature_c": 1.29,
+        "precipitation_mm": 108.1
+      },
+      {
+        "month": "2019-07",
+        "days": 31,
+        "temperature_c": 3.67,
+        "precipitation_mm": 94.6
+      },
+      {
+        "month": "2019-08",
+        "days": 31,
+        "temperature_c": 5.31,
+        "precipitation_mm": 112.3
+      },
+      {
+        "month": "2019-09",
+        "days": 30,
+        "temperature_c": 0.01,
+        "precipitation_mm": 36.0
+      },
+      {
+        "month": "2019-10",
+        "days": 31,
+        "temperature_c": -7.8,
+        "precipitation_mm": 26.4
+      },
+      {
+        "month": "2019-11",
+        "days": 30,
+        "temperature_c": -8.83,
+        "precipitation_mm": 3.8
+      },
+      {
+        "month": "2019-12",
+        "days": 31,
+        "temperature_c": -16.9,
+        "precipitation_mm": 1.6
+      },
+      {
+        "month": "2020-01",
+        "days": 31,
+        "temperature_c": -16.75,
+        "precipitation_mm": 4.3
+      },
+      {
+        "month": "2020-02",
+        "days": 29,
+        "temperature_c": -14.28,
+        "precipitation_mm": 5.1
+      },
+      {
+        "month": "2020-03",
+        "days": 31,
+        "temperature_c": -9.05,
+        "precipitation_mm": 8.3
+      },
+      {
+        "month": "2020-04",
+        "days": 30,
+        "temperature_c": -6.25,
+        "precipitation_mm": 30.3
+      },
+      {
+        "month": "2020-05",
+        "days": 31,
+        "temperature_c": -2.4,
+        "precipitation_mm": 53.1
+      },
+      {
+        "month": "2020-06",
+        "days": 30,
+        "temperature_c": 2.59,
+        "precipitation_mm": 95.0
+      },
+      {
+        "month": "2020-07",
+        "days": 31,
+        "temperature_c": 5.23,
+        "precipitation_mm": 124.9
+      },
+      {
+        "month": "2020-08",
+        "days": 31,
+        "temperature_c": 5.09,
+        "precipitation_mm": 92.1
+      },
+      {
+        "month": "2020-09",
+        "days": 30,
+        "temperature_c": 2.73,
+        "precipitation_mm": 71.0
+      },
+      {
+        "month": "2020-10",
+        "days": 31,
+        "temperature_c": -2.76,
+        "precipitation_mm": 1.4
+      },
+      {
+        "month": "2020-11",
+        "days": 30,
+        "temperature_c": -8.77,
+        "precipitation_mm": 1.2
+      },
+      {
+        "month": "2020-12",
+        "days": 31,
+        "temperature_c": -14.0,
+        "precipitation_mm": 0.0
+      },
+      {
+        "month": "2021-01",
+        "days": 31,
+        "temperature_c": -14.99,
+        "precipitation_mm": 0.3
+      },
+      {
+        "month": "2021-02",
+        "days": 28,
+        "temperature_c": -12.32,
+        "precipitation_mm": 0.7
+      },
+      {
+        "month": "2021-03",
+        "days": 31,
+        "temperature_c": -7.04,
+        "precipitation_mm": 8.2
+      },
+      {
+        "month": "2021-04",
+        "days": 30,
+        "temperature_c": -6.35,
+        "precipitation_mm": 15.0
+      },
+      {
+        "month": "2021-05",
+        "days": 31,
+        "temperature_c": -0.91,
+        "precipitation_mm": 47.4
+      },
+      {
+        "month": "2021-06",
+        "days": 30,
+        "temperature_c": 4.28,
+        "precipitation_mm": 125.3
+      },
+      {
+        "month": "2021-07",
+        "days": 31,
+        "temperature_c": 5.96,
+        "precipitation_mm": 82.6
+      },
+      {
+        "month": "2021-08",
+        "days": 31,
+        "temperature_c": 5.1,
+        "precipitation_mm": 93.8
+      },
+      {
+        "month": "2021-09",
+        "days": 30,
+        "temperature_c": 1.22,
+        "precipitation_mm": 67.0
+      },
+      {
+        "month": "2021-10",
+        "days": 31,
+        "temperature_c": -2.3,
+        "precipitation_mm": 17.7
+      },
+      {
+        "month": "2021-11",
+        "days": 30,
+        "temperature_c": -10.89,
+        "precipitation_mm": 0.0
+      },
+      {
+        "month": "2021-12",
+        "days": 31,
+        "temperature_c": -14.54,
+        "precipitation_mm": 2.5
+      }
+    ],
+    "limitations": "Open-Meteo daily aggregation, not direct GEE monthly asset. ERA5-Land does not provide precipitation in this API: precipitation is explicitly from ERA5, at coarser resolution. No station validation or event-cause attribution."
+  },
+  "spectral_context": {
+    "source_id": "landsat-c2l2-fixed-pixel",
+    "method_id": "landsat8-jun-sep-valid-median-v1",
+    "observation_date": "2019/2020/2021 June–September",
+    "resolution": "single Landsat 30 m pixel",
+    "years": [
+      {
+        "year": 2019,
+        "n": 5,
+        "dates": [
+          "2019-07-09",
+          "2019-07-25",
+          "2019-08-10",
+          "2019-09-11",
+          "2019-09-27"
+        ],
+        "ndvi_median": 0.0896,
+        "nbr_median": 0.0358,
+        "ndwi_median": -0.2542,
+        "swir1_median": 0.3419
+      },
+      {
+        "year": 2020,
+        "n": 2,
+        "dates": [
+          "2020-07-11",
+          "2020-09-29"
+        ],
+        "ndvi_median": 0.0897,
+        "nbr_median": 0.0697,
+        "ndwi_median": -0.2525,
+        "swir1_median": 0.3426
+      },
+      {
+        "year": 2021,
+        "n": 2,
+        "dates": [
+          "2021-07-30",
+          "2021-08-31"
+        ],
+        "ndvi_median": 0.1157,
+        "nbr_median": 0.0732,
+        "ndwi_median": -0.2505,
+        "swir1_median": 0.3971
+      }
+    ],
+    "limitations": "Same sensor and seasonal window, variable dates and sample counts. Pixel index differences are not polygon vegetation loss or proof of causation."
+  },
+  "areas": {
+    "source_id": "xia-annual-10928346",
+    "method_id": "source-area-plus-utm46-geometry-v1",
+    "observation_date": "2016–2022",
+    "resolution": "third-party vector interpretation",
+    "years": {
+      "2016": {
+        "attribute_ha": 2.821046,
+        "projected_geometry_ha": 2.8120954319407683
+      },
+      "2017": {
+        "attribute_ha": 10.550260999999999,
+        "projected_geometry_ha": 10.538031243381981
+      },
+      "2018": {
+        "attribute_ha": 11.665163000000002,
+        "projected_geometry_ha": 11.648712257713717
+      },
+      "2019": {
+        "attribute_ha": 12.674787,
+        "projected_geometry_ha": 12.664127248418287
+      },
+      "2020": {
+        "attribute_ha": 16.886503,
+        "projected_geometry_ha": 16.863525339962504
+      },
+      "2021": {
+        "attribute_ha": 17.269054999999998,
+        "projected_geometry_ha": 17.25315684701611
+      },
+      "2022": {
+        "attribute_ha": 18.282626999999998,
+        "projected_geometry_ha": 18.25804191530052
+      }
+    },
+    "net_attribute_ha_2016_2022": 15.461580999999999,
+    "geometry_added_2016_2022_ha": 15.505079533649914,
+    "geometry_removed_2016_2022_ha": 0.059133050290320864,
+    "limitations": "Attribute areas and projected geometry areas differ slightly due to source area processing. Net area is not erosion volume, vegetation loss or carbon flux."
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "status": "completed",
+  "engine": "pyxccd 1.1.0 public defaults",
+  "independent_prefix_reruns": [
+    {
+      "case": "rts-1820",
+      "as_of": "2010-12-31",
+      "valid_n": 213,
+      "breaks": [],
+      "status": "reproduced"
+    },
+    {
+      "case": "rts-1820",
+      "as_of": "2020-11-23",
+      "valid_n": 370,
+      "breaks": [],
+      "status": "reproduced"
+    },
+    {
+      "case": "rts-1820",
+      "as_of": "2020-11-24",
+      "valid_n": 371,
+      "breaks": [],
+      "status": "reproduced"
+    },
+    {
+      "case": "rts-1820",
+      "as_of": "2025-12-31",
+      "valid_n": 493,
+      "breaks": [],
+      "status": "reproduced"
+    },
+    {
+      "case": "rts-1938",
+      "as_of": "2010-12-31",
+      "valid_n": 214,
+      "breaks": [],
+      "status": "reproduced"
+    },
+    {
+      "case": "rts-1938",
+      "as_of": "2020-11-23",
+      "valid_n": 367,
+      "breaks": [],
+      "status": "reproduced"
+    },
+    {
+      "case": "rts-1938",
+      "as_of": "2020-11-24",
+      "valid_n": 368,
+      "breaks": [
+        "2020-09-29"
+      ],
+      "status": "reproduced"
+    },
+    {
+      "case": "rts-1938",
+      "as_of": "2025-12-31",
+      "valid_n": 487,
+      "breaks": [
+        "2020-09-29"
+      ],
+      "status": "reproduced"
+    },
+    {
+      "case": "background",
+      "as_of": "2010-12-31",
+      "valid_n": 225,
+      "breaks": [],
+      "status": "reproduced"
+    },
+    {
+      "case": "background",
+      "as_of": "2020-11-23",
+      "valid_n": 399,
+      "breaks": [],
+      "status": "reproduced"
+    },
+    {
+      "case": "background",
+      "as_of": "2020-11-24",
+      "valid_n": 399,
+      "breaks": [],
+      "status": "reproduced"
+    },
+    {
+      "case": "background",
+      "as_of": "2025-12-31",
+      "valid_n": 526,
+      "breaks": [],
+      "status": "reproduced"
+    }
+  ],
+  "baseline_flag_counts": {
+    "rts-1820": 67,
+    "rts-1938": 71,
+    "background": 89
+  },
+  "trained_classifier": false,
+  "label_gate": {
+    "source_id": "yang-8103939",
+    "method_id": "source-label-and-overlap-audit-v1",
+    "observation_date": "2018–2020 inventory; downloaded 2026-10-18",
+    "resolution": "interpreted vector polygons",
+    "rts_positive_records": 459,
+    "activity_codes": {
+      "N": 332,
+      "Y": 124,
+      "T": 3
+    },
+    "verified_negative_records": 0,
+    "independent_event_onset_labels": 0,
+    "original_inventory_2022_ids_in_window": 437,
+    "fixed_pixel_time_series": 3,
+    "overlap_candidates_for_1938": [
+      {
+        "source_id": 273,
+        "TYPE": "Y",
+        "intersection_m2": 61155.709,
+        "iou": 0.333784,
+        "ref_covered_fraction": 0.334952
+      },
+      {
+        "source_id": 271,
+        "TYPE": "N",
+        "intersection_m2": 46448.536,
+        "iou": 0.24929,
+        "ref_covered_fraction": 0.2544
+      },
+      {
+        "source_id": 272,
+        "TYPE": "Y",
+        "intersection_m2": 27195.164,
+        "iou": 0.148528,
+        "ref_covered_fraction": 0.148949
+      },
+      {
+        "source_id": 270,
+        "TYPE": "N",
+        "intersection_m2": 10412.675,
+        "iou": 0.056676,
+        "ref_covered_fraction": 0.057031
+      }
+    ],
+    "classification_training_permitted": false,
+    "reason": "All 459 features are thaw-slump records. N means inactive RTS, not non-RTS. Unlisted background is unlabelled. Shared input inventories and inconsistent object boundaries prevent independent event/onset validation. A binary classifier has no verified negative class; fitting pseudo-negatives would not validate RTS identification.",
+    "limitations": "Counts audit the available local public sources, not all possible labels worldwide. No accuracy/PR-AUC/confusion matrix claimed."
+  },
+  "no_ml_metrics_claimed": true
+}

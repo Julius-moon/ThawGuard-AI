@@ -1,0 +1,10 @@
+import {useEffect,useRef} from 'react';import L from 'leaflet';import {asset,type Data} from './types';
+export default function StudyMap({data,selected,year,showInventory,onSelect}:{data:Data;selected:string;year:number;showInventory:boolean;onSelect:(key:string)=>void}){
+ const el=useRef<HTMLDivElement>(null),map=useRef<L.Map|null>(null),layer=useRef<L.LayerGroup|null>(null);
+ useEffect(()=>{if(!el.current)return;const m=L.map(el.current,{scrollWheelZoom:false,minZoom:8,maxZoom:17}).setView([35.07,92.83],11);map.current=m;L.imageOverlay(asset('/images/beiluhe-nasa.jpg'),[[34.8,92.5],[35.4,93.3]],{attribution:'NASA GIBS · 区域定位背景，非历史判读影像'}).addTo(m);layer.current=L.layerGroup().addTo(m);L.control.scale({imperial:false}).addTo(m);const r=new ResizeObserver(()=>m.invalidateSize());r.observe(el.current);return()=>{r.disconnect();m.remove()}},[]);
+ useEffect(()=>{const m=map.current,g=layer.current;if(!m||!g)return;g.clearLayers();if(showInventory)L.geoJSON(data.layers[year],{style:{color:'#edbc73',weight:1.5,fillColor:'#e7ab62',fillOpacity:.3},onEachFeature:(f,l)=>l.bindTooltip(`第三方清单 RTS ${f.properties.id} · ${year} · ${(f.properties.area_m2/10000).toFixed(2)} ha`)}).addTo(g);
+ const roi=data.summary.roi;L.rectangle([[roi[1],roi[0]],[roi[3],roi[2]]],{color:'#dcecf0',weight:1,fillOpacity:0,dashArray:'5 6'}).bindTooltip('公开清单展示窗；不是全高原检测覆盖').addTo(g);
+ data.points.forEach((p,i)=>{const active=p.key===selected;L.circleMarker([p.coordinates[1],p.coordinates[0]],{radius:active?10:7,color:'#fff',weight:2,fillColor:p.inventory_id?'#45bdc7':'#d69c5f',fillOpacity:1}).bindTooltip(`${String.fromCharCode(65+i)} · ${p.name}`).on('click',()=>onSelect(p.key)).addTo(g)});
+ },[data,selected,year,showInventory,onSelect]);
+ return <div className="study-map-wrap"><div ref={el} className="study-map" aria-label={`${year}年第三方清单和三个真实光谱采样位置`}/><div className="map-caption"><b>北麓河研究窗</b><span>橙色：{year} 年公开边界　青色／米色：本次时序采样位置</span></div><button className="map-home" onClick={()=>map.current?.fitBounds([[34.9,92.65],[35.25,93.15]])}>研究窗全貌</button></div>
+}

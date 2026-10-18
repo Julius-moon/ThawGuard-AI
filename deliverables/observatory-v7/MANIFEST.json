@@ -1,0 +1,11 @@
+{
+  "artifact": "ThawGuard_连续观测与事件证据_v7.html",
+  "bytes": 13173186,
+  "sha256": "62c58ada54357c9848571276de2d5cdddeaffb6b3096536381245b9452f4bad9",
+  "data_resources": 25,
+  "images": 28,
+  "observations": 3084,
+  "offline": true,
+  "algorithm": "S-CCD public defaults / pyxccd 1.1.0",
+  "scientific_claims": "Spectral-change retrospective reproduction only; not independent RTS accuracy, nowcasting, or future forecast."
+}

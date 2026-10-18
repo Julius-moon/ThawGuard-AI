@@ -1,0 +1,1 @@
+{"url": "https://archive-api.open-meteo.com/v1/archive", "params": {"latitude": 35.07607472715217, "longitude": 92.72564269377199, "start_date": "2019-01-01", "end_date": "2021-12-31", "daily": "precipitation_sum", "models": "era5", "timezone": "UTC", "elevation": "nan", "cell_selection": "nearest"}, "download_utc": "2026-10-18T05:40:56.497933+00:00"}

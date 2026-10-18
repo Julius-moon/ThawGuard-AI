@@ -1,0 +1,13 @@
+rts-1820 2010-12-31 n=213 breaks=[] reproduced
+rts-1820 2020-11-23 n=370 breaks=[] reproduced
+rts-1820 2020-11-24 n=371 breaks=[] reproduced
+rts-1820 2025-12-31 n=493 breaks=[] reproduced
+rts-1938 2010-12-31 n=214 breaks=[] reproduced
+rts-1938 2020-11-23 n=367 breaks=[] reproduced
+rts-1938 2020-11-24 n=368 breaks=['2020-09-29'] reproduced
+rts-1938 2025-12-31 n=487 breaks=['2020-09-29'] reproduced
+background 2010-12-31 n=225 breaks=[] reproduced
+background 2020-11-23 n=399 breaks=[] reproduced
+background 2020-11-24 n=399 breaks=[] reproduced
+background 2025-12-31 n=526 breaks=[] reproduced
+Classifier training stopped at verified-label gate: 459 RTS records, 0 verified non-RTS records. Inactive N is not a negative class. No fabricated accuracy.

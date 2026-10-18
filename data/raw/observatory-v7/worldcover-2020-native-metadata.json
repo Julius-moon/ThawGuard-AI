@@ -1,0 +1,34 @@
+{
+  "source_url": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v100/2020/map/ESA_WorldCover_10m_2020_v100_N33E090_Map.tif",
+  "download_utc": "2026-10-18T05:35:02.945383+00:00",
+  "source_crs": "EPSG:4326",
+  "source_shape": [
+    36000,
+    36000
+  ],
+  "source_transform": [
+    8.333333333333333e-05,
+    0.0,
+    90.0,
+    0.0,
+    -8.333333333333333e-05,
+    36.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "window": [
+    32634,
+    11008,
+    193,
+    158
+  ],
+  "clip_sha256": "bfe5c1bff9026fccd88343f4a10a7e1ce13a1e5ceb9f721bcbd8f8276f6ea8af",
+  "clip_bounds": [
+    92.7195,
+    35.069500000000005,
+    92.73558333333332,
+    35.08266666666667
+  ],
+  "method": "native-grid window read; no resampling in raw clip"
+}
