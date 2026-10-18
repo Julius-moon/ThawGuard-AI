@@ -2,6 +2,8 @@
 
 青藏高原热融滑塌连续观测与事件证据原型。面向科研判读人员，以 **RTS 1938** 核对卫星变化、历史边界与环境背景，记录判断依据并导出可复核报告。当前为历史科研核查 Demo，不提供灾前预测或正式预警。
 
+利用连续卫星观测发现和核查热融滑塌变化，为高原生态监测与灾害风险研究提供可追溯的时序证据。
+
 **[下载完整离线演示包](https://github.com/shixuemin06-netizen/ThawGuard-AI/releases/download/v7-final/ThawGuard_v7_final_release.zip)** · [全部 Release 文件](https://github.com/shixuemin06-netizen/ThawGuard-AI/releases/tag/v7-final) · [单文件 HTML](https://github.com/shixuemin06-netizen/ThawGuard-AI/releases/download/v7-final/index.html)
 
 ![真实运行截图](media/demo-preview.png)
